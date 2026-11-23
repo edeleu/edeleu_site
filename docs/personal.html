@@ -1,0 +1,502 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Personal · Edward Deleu</title>
+<meta name="description" content="Life outside the lab: baking, cycling, hiking, cooking, reading, and side projects.">
+<meta name="color-scheme" content="light only">
+<meta name="author" content="Edward Deleu">
+<meta name="theme-color" content="#faf9f5">
+<link rel="canonical" href="https://edeleu.com/personal.html">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Edward Deleu">
+<meta property="og:title" content="Personal · Edward Deleu">
+<meta property="og:description" content="Life outside the lab: baking, cycling, hiking, cooking, reading, and side projects.">
+<meta property="og:url" content="https://edeleu.com/personal.html">
+<meta property="og:image" content="https://edeleu.com/assets/share-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Edward Deleu, PhD student in Materials Science and Engineering at Stanford">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://unpkg.com" crossorigin>
+<link rel="preconnect" href="https://tiles.openfreemap.org" crossorigin>
+<!-- Map styles load without blocking the page (media swap); integrity = sha384 of the npm package file. -->
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" integrity="sha384-MinO0mNliZ3vwppuPOUnGa+iq619pfMhLVUXfC4LHwSCvF9H+6P/KO4Q7qBOYV5V" crossorigin="anonymous" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body id="top">
+<a class="skip" href="#main">Skip to content</a>
+<header class="wrap header">
+  <a href="index.html" class="brand"><img src="favicon.svg" alt="" width="22" height="22">Edward Deleu</a>
+  <nav class="site-nav" aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a href="projects.html">Projects</a>
+    <a href="personal.html" aria-current="page">Personal</a>
+    <a href="documents/edward-deleu-cv.pdf">CV</a>
+  </nav>
+</header>
+
+<main class="wrap" id="main">
+<div class="page-intro">
+  <p class="eyebrow">Outside the lab</p>
+  <h1>Personal</h1>
+  <p class="lede">Away from the computer: time on the bike and on the trail, a stack of books, and usually something in the oven.</p>
+</div>
+
+<nav class="topic-nav" aria-label="Personal sections">
+  <a class="clay" href="#baking">Baking</a>
+  <a class="slate" href="#outdoors">Cycling &amp; hiking</a>
+  <a class="clay" href="#cooking">Cooking</a>
+  <a class="lilac" href="#reading">Reading</a>
+  <a class="sage" href="#side-projects">Side projects</a>
+</nav>
+
+<!--
+  Adding content (styles exist in styles.css). Photos: python3 tools/prep_photo.py (strips metadata).
+  Photo grid: full-res JPEG in assets/figures/personal/, 640px square WebP in assets/thumbs/personal/.
+  For untouched JPEGs use --lossless: original image data kept byte for byte, metadata (GPS etc.) removed.
+  Keep visible grids to full rows (4, or class="five"); extra photos go in the "More" fold.
+  Rides: python3 tools/make_route_svg.py ride.gpx docs/assets/figures/personal/NAME.svg --trim-km 1.5 --json route.json
+         then paste route.json into the ride-route script at the bottom of this page
+         (optional: data-photo="lat,lon" on #ride-map for a camera pin; the photo's own GPS is a good source).
+  Reading list: ul.reading-list with li > cite + span (author).
+-->
+
+<details class="personal-card personal-feature pfold clay" id="baking" open>
+  <summary class="feature-head">
+    <svg class="card-icon" viewBox="0 0 32 32" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6 17c0-5 4.5-8 10-8s10 3 10 8v2a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2z"/><path d="M12 12.5l1.5 3.5M16 11.5v4M20 12.5l-1.5 3.5"/><path d="M8 21v4h16v-4"/></g></svg>
+    <h2 id="baking-h">Baking</h2>
+    <span class="feature-desc">Cakes, pies, cookies, and the occasional kitchen experiment. A few recent bakes:</span>
+    <span class="fold-toggle" aria-hidden="true"></span>
+  </summary>
+  <div class="pfold-body">
+  <div class="photo-grid five">
+      <figure><a href="assets/figures/personal/tres-leches.jpg" aria-label="Open full-size photo: Tres leches cake"><img src="assets/thumbs/personal/tres-leches.webp" width="640" height="640" alt="Tres leches cake in a baking dish, half topped with whipped cream and a dusting of cinnamon, half showing the soaked sponge." loading="lazy"></a><figcaption>Tres leches cake</figcaption></figure>
+      <figure><a href="assets/figures/personal/brownies.jpg" aria-label="Open full-size photo: Brownies"><img src="assets/thumbs/personal/brownies.webp" width="640" height="640" alt="A square pan of brownies with a glossy, crackled top." loading="lazy"></a><figcaption>Brownies</figcaption></figure>
+      <figure><a href="assets/figures/personal/matcha-basque-cheesecake.jpg" aria-label="Open full-size photo: Matcha Basque cheesecake"><img src="assets/thumbs/personal/matcha-basque-cheesecake.webp" width="640" height="640" alt="A slice of green matcha Basque cheesecake with a caramelized top, on a gray plate." loading="lazy"></a><figcaption>Matcha Basque cheesecake</figcaption></figure>
+      <figure><a href="assets/figures/personal/apple-pie.jpg" aria-label="Open full-size photo: Apple pie"><img src="assets/thumbs/personal/apple-pie.webp" width="640" height="640" alt="A golden double-crust apple pie with slits in the top crust, in a glass dish." loading="lazy"></a><figcaption>Apple pie</figcaption></figure>
+      <figure><a href="assets/figures/personal/chocolate-chip-cookies.jpg" aria-label="Open full-size photo: Chocolate chip cookies"><img src="assets/thumbs/personal/chocolate-chip-cookies.webp" width="640" height="640" alt="A sheet pan of large, flat chocolate chip cookies with crackled tops, on parchment paper." loading="lazy"></a><figcaption>Chocolate chip cookies</figcaption></figure>
+  </div>
+  </div>
+</details>
+
+<details class="personal-card personal-feature pfold slate" id="outdoors" open>
+  <summary class="feature-head">
+    <svg class="card-icon" viewBox="0 0 32 32" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="21" r="5.6"/><circle cx="24" cy="21" r="5.6"/><circle cx="8" cy="21" r=".6" fill="currentColor"/><circle cx="24" cy="21" r=".6" fill="currentColor"/><path d="M8 21h7l6.9-6.7M8 21l4.9-7.2M15 21l-2.5-8.6M12.9 13.8l8.4-1.5M21.3 12.3L24 21"/><path d="M12.5 12.4l-.4-1.9M10.3 10.4h3.7M21.3 12.3l-.5-2M19.4 10.3h2.4M15 21l1.3 2.3M15.5 23.3h1.6"/></g></svg>
+    <h2 id="outdoors-h">Cycling &amp; hiking</h2>
+    <span class="feature-desc">Rides and trails around the Bay Area, plus indoor training on a Wahoo trainer.</span>
+    <span class="fold-toggle" aria-hidden="true"></span>
+  </summary>
+  <div class="pfold-body">
+  <figure class="route-map">
+    <div class="ride-map" id="ride-map" data-photo="37.4351,-122.0715" data-photo-thumb="assets/thumbs/personal/my-bike.webp" data-photo-full="assets/figures/personal/my-bike.jpg">
+      <a class="map-fallback" href="assets/figures/personal/ride-bay-trail.svg" aria-label="Open the route map full size"><img src="assets/figures/personal/ride-bay-trail.svg" width="800" height="300" alt="Map of a 48 km out-and-back ride along the San Francisco Bay Trail, drawn as a single blue line with a 2 km scale bar." loading="lazy"></a>
+    </div>
+    <div class="ride-profile" id="ride-profile" hidden>
+      <div class="ride-profile-head"><span id="ride-elev">Elevation</span><span class="ride-readout" id="ride-readout">Drag along the profile to follow the ride</span></div>
+      <div class="ride-profile-plot" id="ride-profile-plot" tabindex="0" role="slider" aria-label="Position along the ride (use arrow keys)" aria-valuemin="0" aria-valuemax="48" aria-valuenow="0"></div>
+    </div>
+    <figcaption><b>Bay Trail ride</b> · out and back along the bay · October 2026</figcaption>
+  </figure>
+  <div class="ride-row">
+    <figure class="ride-photo">
+      <a href="assets/figures/personal/my-bike.jpg" aria-label="Open full-size photo of the bike"><img src="assets/thumbs/personal/my-bike.webp" width="960" height="640" alt="A dark gray hybrid bike leaning against a white wooden fence beside the bay marshes, with power-line towers and hills in the distance under a clear blue sky." loading="lazy"></a>
+      <figcaption>My bike, at a stop along the Bay Trail near Mountain View.</figcaption>
+    </figure>
+    <dl class="ride-stats">
+      <div><dt>Distance</dt><dd>47.9 km <span>29.7 mi</span></dd></div>
+      <div><dt>Moving time</dt><dd>2 h 11 min</dd></div>
+      <div><dt>Average speed</dt><dd>21.9 km/h <span>13.6 mph</span></dd></div>
+      <div><dt>Elevation gain</dt><dd>62 m <span>202 ft</span></dd></div>
+    </dl>
+  </div>
+  </div>
+</details>
+
+<details class="personal-card personal-feature pfold clay" id="cooking" open>
+  <summary class="feature-head">
+    <svg class="card-icon" viewBox="0 0 32 32" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 16h16v2a6 6 0 0 1-6 6h-4a6 6 0 0 1-6-6z"/><path d="M21 17.5h7"/><path d="M10 6c-1 1.5 1 2.5 0 4M15 5c-1 1.5 1 2.5 0 4M20 6c-1 1.5 1 2.5 0 4"/></g></svg>
+    <h2 id="cooking-h">Cooking</h2>
+    <span class="feature-desc">I love food! I’m always exploring new cuisines in the kitchen. A few recent dishes:</span>
+    <span class="fold-toggle" aria-hidden="true"></span>
+  </summary>
+  <div class="pfold-body">
+  <!-- Order chosen by Edward (best first). Keep 12 up front (three full rows); the rest go in the fold. -->
+  <div class="photo-grid">
+      <figure><a href="assets/figures/personal/japanese-curry.jpg" aria-label="Open full-size photo: Japanese curry"><img src="assets/thumbs/personal/japanese-curry.webp" width="640" height="640" alt="Japanese curry with ground beef, potatoes, carrots, and peas over white rice, sprinkled with black and white sesame seeds." loading="lazy"></a><figcaption>Japanese curry</figcaption></figure>
+      <figure><a href="assets/figures/personal/salmon.jpg" aria-label="Open full-size photo: Sockeye salmon"><img src="assets/thumbs/personal/salmon.webp" width="640" height="640" alt="A paprika-rubbed sockeye salmon fillet on an oval plate, between garlicky green beans and blistered cherry tomatoes." loading="lazy"></a><figcaption>Sockeye salmon</figcaption></figure>
+      <figure><a href="assets/figures/personal/lu-rou-fan.jpg" aria-label="Open full-size photo: Lu rou fan"><img src="assets/thumbs/personal/lu-rou-fan.webp" width="640" height="640" alt="Lu rou fan: glossy braised pork over white rice, with stir-fried bok choy and garlic." loading="lazy"></a><figcaption>Lu rou fan</figcaption></figure>
+      <figure><a href="assets/figures/personal/mapo-tofu.jpg" aria-label="Open full-size photo: Mapo tofu, from scratch"><img src="assets/thumbs/personal/mapo-tofu.webp" width="640" height="640" alt="Mapo tofu with ground pork and black sesame over rice, with shimeji mushrooms and bok choy." loading="lazy"></a><figcaption>Mapo tofu, from scratch</figcaption></figure>
+      <figure><a href="assets/figures/personal/pasta.jpg" aria-label="Open full-size photo: Pasta with homemade sauce"><img src="assets/thumbs/personal/pasta.webp" width="640" height="640" alt="Rigatoni in a creamy homemade tomato sauce, in a stainless-steel pan." loading="lazy"></a><figcaption>Pasta with homemade sauce</figcaption></figure>
+      <figure><a href="assets/figures/personal/rose-tteokbokki.jpg" aria-label="Open full-size photo: Rosé tteokbokki with fish balls"><img src="assets/thumbs/personal/rose-tteokbokki.webp" width="640" height="640" alt="Rosé tteokbokki: chewy rice cakes and fish balls in a creamy orange-pink sauce, sprinkled with black and white sesame seeds." loading="lazy"></a><figcaption>Rosé tteokbokki with fish balls</figcaption></figure>
+      <figure><a href="assets/figures/personal/dak-galbi.jpg" aria-label="Open full-size photo: Dak galbi"><img src="assets/thumbs/personal/dak-galbi.webp" width="640" height="640" alt="Dak galbi: chicken, cabbage, and carrots in a red gochujang sauce with melted cheese, beside white rice." loading="lazy"></a><figcaption>Dak galbi</figcaption></figure>
+      <figure><a href="assets/figures/personal/swordfish.jpg" aria-label="Open full-size photo: Swordfish with lemon-butter sauce"><img src="assets/thumbs/personal/swordfish.webp" width="640" height="640" alt="Two swordfish steaks with lemon-butter sauce, paprika, and black pepper, beside white rice and green beans." loading="lazy"></a><figcaption>Swordfish with lemon-butter sauce</figcaption></figure>
+      <figure><a href="assets/figures/personal/ny-strip-steak.jpg" aria-label="Open full-size photo: NY strip steak"><img src="assets/thumbs/personal/ny-strip-steak.webp" width="640" height="640" alt="A New York strip steak sliced on a wooden cutting board, with a dark seared crust and a rosy medium-rare center." loading="lazy"></a><figcaption>NY strip steak</figcaption></figure>
+      <figure><a href="assets/figures/personal/mexican-bowl.jpg" aria-label="Open full-size photo: Mexican bowl"><img src="assets/thumbs/personal/mexican-bowl.webp" width="640" height="640" alt="A bowl of white rice, black beans, corn, and seasoned ground beef with peppers, topped with cherry tomatoes and diced onion." loading="lazy"></a><figcaption>Mexican bowl</figcaption></figure>
+      <figure><a href="assets/figures/personal/bulgogi-beef.jpg" aria-label="Open full-size photo: Bulgogi beef"><img src="assets/thumbs/personal/bulgogi-beef.webp" width="640" height="640" alt="Thin-sliced bulgogi beef topped with scallions and sesame seeds, with seasoned rice and green beans." loading="lazy"></a><figcaption>Bulgogi beef</figcaption></figure>
+      <figure><a href="assets/figures/personal/shredded-pork.jpg" aria-label="Open full-size photo: Shredded pork, tiger-skin peppers, mushrooms"><img src="assets/thumbs/personal/shredded-pork.webp" width="640" height="640" alt="Shredded pork stir-fried with green peppers, a side of glazed shimeji mushrooms, and white rice, with chopsticks." loading="lazy"></a><figcaption>Shredded pork, tiger-skin peppers, mushrooms</figcaption></figure>
+  </div>
+  <details class="more more-photos">
+    <summary><span class="closed">More dishes (6)</span><span class="opened">Fewer dishes</span></summary>
+    <div class="photo-grid">
+      <figure><a href="assets/figures/personal/spicy-bok-choy.jpg" aria-label="Open full-size photo: Spicy bok choy"><img src="assets/thumbs/personal/spicy-bok-choy.webp" width="640" height="640" alt="Bok choy with garlic and dried chilies in a glossy dark sauce, in a small bowl." loading="lazy"></a><figcaption>Spicy bok choy</figcaption></figure>
+      <figure><a href="assets/figures/personal/sweet-and-sour-pork.jpg" aria-label="Open full-size photo: Sweet and sour pork"><img src="assets/thumbs/personal/sweet-and-sour-pork.webp" width="640" height="640" alt="Sweet and sour pork with pineapple and red, yellow, and green peppers over rice." loading="lazy"></a><figcaption>Sweet and sour pork</figcaption></figure>
+      <figure><a href="assets/figures/personal/chicken-bamboo-shoots.jpg" aria-label="Open full-size photo: Chicken with baby corn and bamboo shoots"><img src="assets/thumbs/personal/chicken-bamboo-shoots.webp" width="640" height="640" alt="Chicken with baby corn, bamboo shoots, onion, and peppers in a brown sauce, beside white rice." loading="lazy"></a><figcaption>Chicken with baby corn and bamboo shoots</figcaption></figure>
+      <figure><a href="assets/figures/personal/crispy-chicken.jpg" aria-label="Open full-size photo: Crispy chicken with green beans"><img src="assets/thumbs/personal/crispy-chicken.webp" width="640" height="640" alt="Crispy chicken pieces tossed with green beans, onion, and red chili in a glossy sauce, in a stainless-steel pan." loading="lazy"></a><figcaption>Crispy chicken with green beans</figcaption></figure>
+      <figure><a href="assets/figures/personal/beef-peppers.jpg" aria-label="Open full-size photo: Beef with peppers and onions"><img src="assets/thumbs/personal/beef-peppers.webp" width="640" height="640" alt="Sliced beef stir-fried with onions and red, yellow, and green peppers, beside rice with corn and a side of green beans." loading="lazy"></a><figcaption>Beef with peppers and onions</figcaption></figure>
+      <figure><a href="assets/figures/personal/chicken-baby-corn.jpg" aria-label="Open full-size photo: Chicken stir-fry with baby corn"><img src="assets/thumbs/personal/chicken-baby-corn.webp" width="640" height="640" alt="Chicken stir-fry with baby corn, green beans, onion, and red peppers over rice." loading="lazy"></a><figcaption>Chicken stir-fry with baby corn</figcaption></figure>
+    </div>
+  </details>
+  </div>
+</details>
+
+<div class="personal-grid">
+  <section class="personal-card lilac" id="reading" aria-labelledby="reading-h">
+    <svg class="card-icon" viewBox="0 0 32 32" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8c4-1.5 8-1.5 12 1 4-2.5 8-2.5 12-1v16c-4-1.5-8-1.5-12 1-4-2.5-8-2.5-12-1z"/><path d="M16 9v16"/></g></svg>
+    <h2 id="reading-h">Reading</h2>
+    <p>A short, occasionally updated list of books I’ve enjoyed, inside and outside science.</p>
+  </section>
+  <section class="personal-card" id="side-projects" aria-labelledby="side-h">
+    <svg class="card-icon" viewBox="0 0 32 32" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M11 10l-6 6 6 6M21 10l6 6-6 6M18 7l-4 18"/></g></svg>
+    <h2 id="side-h">Side projects</h2>
+    <p>Small tools and experiments. Code lives on <a href="https://github.com/edeleu">GitHub</a>.</p>
+  </section>
+</div>
+</main>
+
+<footer class="wrap">
+  <span>Edward Deleu · <a href="mailto:edeleu@stanford.edu">edeleu@stanford.edu</a> · <a href="documents/edward-deleu-cv.pdf">CV</a></span>
+  <span>Updated November 2026 · <a href="#top">Back to top <span aria-hidden="true">↑</span></a></span>
+</footer>
+<!-- Live route map: MapLibre GL JS 4.7.1 (unpkg) + OpenFreeMap vector tiles ("Positron" light, "Liberty" detailed).
+     OpenFreeMap needs no API key and no registration; attribution is added automatically.
+     Route = tools/make_route_svg.py --json: [lat, lon, km, elevation m, speed km/h] per point (4-decimal coordinates, no clock times).
+     #ride-map data-photo="lat,lon" adds a camera pin whose popup shows data-photo-thumb (links to data-photo-full).
+     The elevation profile works without the map; if the map can't load (no JS, offline, blocked), the static SVG stays in place. -->
+<script>
+(function () {                     // chips and #links open a collapsed section before jumping to it
+  function openSection(id) {
+    var el = id && document.getElementById(id), d = el && el.closest ? el.closest('details') : null;
+    if (d && !d.open) d.open = true;
+  }
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest && e.target.closest('a[href^="#"]');
+    if (a) openSection(a.getAttribute('href').slice(1));
+  });
+  try { openSection(decodeURIComponent(location.hash.slice(1))); } catch (e) {}
+})();
+</script>
+<script type="application/json" id="ride-route">[[37.4256,-122.1569,0.0,18.7,31],[37.4256,-122.156,0.08,18.1,32],[37.4261,-122.1553,0.16,17.2,31],[37.4266,-122.1547,0.25,16.5,30],[37.4271,-122.1539,0.33,16.0,28],[37.4272,-122.153,0.42,15.7,25],[37.4269,-122.1521,0.51,14.9,24],[37.4267,-122.1512,0.6,14.2,22],[37.4262,-122.1505,0.74,14.4,21],[37.4268,-122.15,0.83,14.1,21],[37.4274,-122.1495,0.91,13.7,22],[37.428,-122.149,0.99,13.5,24],[37.4286,-122.1485,1.08,13.1,23],[37.4293,-122.148,1.16,12.4,25],[37.4299,-122.1474,1.25,12.0,23],[37.4306,-122.1469,1.33,11.7,25],[37.4312,-122.1463,1.42,11.5,25],[37.4307,-122.1456,1.5,11.1,26],[37.4303,-122.1448,1.59,10.8,26],[37.4298,-122.1441,1.67,10.6,25],[37.4293,-122.1433,1.76,10.4,21],[37.429,-122.1425,1.84,10.2,20],[37.4296,-122.1419,1.93,7.4,19],[37.4302,-122.1415,2.02,9.3,19],[37.4309,-122.1411,2.1,9.1,19],[37.4315,-122.1406,2.18,8.9,21],[37.4321,-122.14,2.27,8.6,21],[37.4327,-122.1395,2.35,8.3,22],[37.4334,-122.139,2.44,8.1,22],[37.434,-122.1385,2.52,7.7,25],[37.4346,-122.138,2.6,7.4,24],[37.4352,-122.1375,2.68,7.1,25],[37.4358,-122.137,2.76,7.0,23],[37.4364,-122.1364,2.85,6.8,22],[37.437,-122.1358,2.93,6.4,20],[37.4377,-122.1361,3.04,6.4,22],[37.4384,-122.1357,3.14,6.2,22],[37.439,-122.1351,3.22,6.0,24],[37.4396,-122.1345,3.3,5.8,28],[37.4401,-122.134,3.39,5.5,29],[37.4407,-122.1334,3.47,5.0,29],[37.4413,-122.1328,3.55,4.6,30],[37.4419,-122.1322,3.63,4.4,28],[37.4425,-122.1316,3.72,4.4,27],[37.4431,-122.131,3.8,4.0,26],[37.4437,-122.1305,3.89,3.9,25],[37.4443,-122.1299,3.97,3.8,24],[37.4449,-122.1293,4.06,3.5,23],[37.4455,-122.1287,4.14,3.5,23],[37.4461,-122.1281,4.23,3.7,22],[37.4466,-122.1274,4.31,3.7,24],[37.4464,-122.1265,4.42,3.1,25],[37.4464,-122.1256,4.51,2.7,26],[37.4466,-122.1248,4.61,2.5,21],[37.4461,-122.1241,4.69,2.3,16],[37.4461,-122.1232,4.8,2.5,15],[37.4465,-122.1225,4.89,9.4,14],[37.4469,-122.1217,4.97,10.3,13],[37.4473,-122.1209,5.05,8.6,16],[37.4477,-122.1201,5.14,2.4,17],[37.4476,-122.1192,5.22,2.0,16],[37.4476,-122.1182,5.32,1.5,18],[37.4478,-122.1173,5.41,1.5,20],[37.4471,-122.1173,5.53,0.8,21],[37.4463,-122.1172,5.61,0.8,23],[37.4457,-122.1176,5.74,1.1,23],[37.4449,-122.1177,5.84,1.2,22],[37.4442,-122.1174,5.92,1.1,25],[37.4436,-122.1169,6.0,1.4,26],[37.443,-122.1163,6.08,1.3,27],[37.4425,-122.1157,6.17,1.4,27],[37.4419,-122.1151,6.25,1.2,27],[37.4413,-122.1144,6.34,1.4,25],[37.4407,-122.1139,6.42,2.4,25],[37.4402,-122.1133,6.5,2.8,25],[37.4396,-122.1127,6.58,2.4,25],[37.439,-122.1121,6.66,1.8,26],[37.4385,-122.1115,6.75,1.8,26],[37.4379,-122.1109,6.83,1.8,27],[37.4373,-122.1102,6.92,1.8,26],[37.4367,-122.1097,7.0,2.2,26],[37.4361,-122.109,7.08,2.2,27],[37.4356,-122.1084,7.17,2.2,26],[37.435,-122.1078,7.25,2.2,26],[37.4344,-122.1072,7.34,2.2,25],[37.4338,-122.1066,7.42,2.2,25],[37.4333,-122.106,7.5,2.5,22],[37.4327,-122.1054,7.59,3.3,21],[37.4328,-122.1045,7.73,2.7,22],[37.4334,-122.1039,7.82,3.0,23],[37.434,-122.1032,7.9,3.0,26],[37.4345,-122.1025,7.98,2.9,28],[37.4349,-122.1018,8.06,2.9,27],[37.4352,-122.1009,8.15,2.6,24],[37.4356,-122.1,8.23,2.3,24],[37.436,-122.0993,8.33,2.2,25],[37.4356,-122.0985,8.42,2.3,25],[37.4354,-122.0975,8.51,2.7,25],[37.435,-122.0967,8.59,2.7,23],[37.4351,-122.0958,8.68,2.9,20],[37.4355,-122.095,8.77,5.0,19],[37.4356,-122.0941,8.85,5.2,19],[37.4356,-122.0931,8.93,5.1,20],[37.4355,-122.0922,9.02,5.3,22],[37.4355,-122.0912,9.1,5.4,23],[37.4354,-122.0903,9.19,5.3,23],[37.4353,-122.0893,9.27,5.1,23],[37.4353,-122.0884,9.35,5.0,23],[37.4353,-122.0875,9.44,4.9,19],[37.4352,-122.0865,9.52,4.7,19],[37.4346,-122.086,9.64,3.6,18],[37.4339,-122.0864,9.72,3.6,17],[37.4332,-122.0867,9.81,3.7,19],[37.4325,-122.0868,9.9,3.6,22],[37.4321,-122.086,10.0,3.8,24],[37.4321,-122.085,10.09,3.6,26],[37.4325,-122.0843,10.17,3.2,27],[37.4329,-122.0835,10.26,3.1,26],[37.4334,-122.0828,10.34,2.9,23],[37.4339,-122.0822,10.42,3.2,22],[37.4345,-122.0817,10.51,4.4,20],[37.435,-122.081,10.61,5.3,21],[37.4351,-122.0801,10.7,5.6,21],[37.4352,-122.0792,10.78,5.4,22],[37.4354,-122.0782,10.87,4.8,22],[37.4354,-122.0773,10.95,4.5,23],[37.4356,-122.0764,11.03,4.5,25],[37.4357,-122.0754,11.11,4.3,27],[37.4357,-122.0745,11.19,4.0,30],[37.4358,-122.0736,11.28,3.9,29],[37.4358,-122.0726,11.37,3.3,27],[37.4356,-122.0717,11.45,2.4,25],[37.4349,-122.0715,11.54,3.4,24],[37.4342,-122.0712,11.62,3.1,23],[37.4334,-122.071,11.71,3.3,25],[37.4327,-122.0708,11.79,3.2,26],[37.432,-122.0705,11.88,3.1,26],[37.4312,-122.0703,11.96,3.3,26],[37.4307,-122.0697,12.04,3.5,26],[37.4299,-122.0695,12.13,3.4,23],[37.4295,-122.0688,12.23,3.7,21],[37.4302,-122.0686,12.31,3.1,20],[37.4307,-122.068,12.42,2.4,20],[37.4315,-122.0678,12.51,2.5,20],[37.4322,-122.0676,12.59,2.4,22],[37.433,-122.0675,12.68,2.3,22],[37.4338,-122.0675,12.76,2.2,21],[37.4345,-122.0675,12.85,2.2,21],[37.4348,-122.0666,12.96,1.2,22],[37.4345,-122.0657,13.05,0.9,23],[37.4343,-122.0648,13.13,0.6,25],[37.4341,-122.0639,13.22,0.6,25],[37.4338,-122.0629,13.31,0.4,25],[37.4336,-122.062,13.39,0.7,25],[37.4337,-122.0611,13.47,0.6,25],[37.434,-122.0602,13.56,0.9,25],[37.4343,-122.0594,13.64,0.7,27],[37.4346,-122.0585,13.72,0.6,29],[37.4349,-122.0576,13.81,0.3,31],[37.4352,-122.0567,13.89,0.7,31],[37.4355,-122.0558,13.98,0.4,29],[37.4357,-122.0549,14.06,0.5,27],[37.4357,-122.054,14.16,0.7,26],[37.435,-122.0536,14.25,0.4,26],[37.4343,-122.0533,14.33,0.2,26],[37.4336,-122.0529,14.41,0.2,26],[37.4329,-122.0525,14.49,0.7,26],[37.4323,-122.0522,14.58,0.5,25],[37.4316,-122.0518,14.66,0.5,25],[37.4308,-122.0515,14.74,0.5,26],[37.4301,-122.0513,14.83,0.4,26],[37.4294,-122.0512,14.91,0.4,26],[37.4287,-122.0508,14.99,0.3,26],[37.4281,-122.0502,15.08,0.5,26],[37.4276,-122.0496,15.16,0.5,25],[37.4269,-122.0491,15.25,0.2,25],[37.4268,-122.0481,15.33,0.9,24],[37.4268,-122.0472,15.42,0.8,24],[37.427,-122.0462,15.5,0.7,24],[37.4272,-122.0453,15.59,1.1,24],[37.4274,-122.0445,15.67,1.4,24],[37.4276,-122.0436,15.75,1.7,25],[37.4275,-122.0427,15.83,1.8,25],[37.4274,-122.0417,15.91,1.6,25],[37.4273,-122.0408,15.99,1.3,25],[37.4273,-122.0399,16.08,1.2,26],[37.4272,-122.0389,16.16,1.0,25],[37.4271,-122.038,16.25,0.7,25],[37.427,-122.037,16.33,0.9,23],[37.4269,-122.0361,16.42,1.0,20],[37.4268,-122.0352,16.5,0.7,20],[37.4263,-122.0344,16.6,1.0,20],[37.4261,-122.0335,16.69,0.9,19],[37.4259,-122.0326,16.77,1.0,19],[37.4257,-122.0316,16.85,0.7,20],[37.4256,-122.0307,16.94,0.6,20],[37.4254,-122.0298,17.02,0.8,20],[37.4252,-122.0289,17.1,0.7,22],[37.425,-122.028,17.19,0.6,23],[37.4246,-122.0272,17.27,0.5,25],[37.4238,-122.0271,17.36,0.6,27],[37.4232,-122.0265,17.45,0.7,27],[37.4229,-122.0256,17.53,0.7,28],[37.4226,-122.0248,17.62,0.8,27],[37.4223,-122.0239,17.7,0.8,26],[37.4221,-122.023,17.78,0.8,26],[37.4218,-122.0222,17.86,0.7,26],[37.4215,-122.0213,17.95,0.6,27],[37.4212,-122.0204,18.03,0.5,27],[37.4209,-122.0196,18.11,0.6,24],[37.4206,-122.0187,18.2,0.4,22],[37.4203,-122.0178,18.28,1.1,20],[37.4204,-122.0169,18.38,2.3,20],[37.4207,-122.0161,18.49,2.2,20],[37.4214,-122.0165,18.57,2.2,22],[37.4221,-122.0169,18.65,2.5,23],[37.4228,-122.0165,18.74,2.5,22],[37.4233,-122.0159,18.82,2.6,22],[37.424,-122.0157,18.91,2.4,20],[37.4247,-122.0154,19.01,2.4,19],[37.4248,-122.0145,19.09,2.6,20],[37.4254,-122.0139,19.17,2.8,20],[37.4259,-122.0133,19.26,2.6,21],[37.4265,-122.0126,19.34,2.7,23],[37.427,-122.012,19.42,2.3,23],[37.4276,-122.0114,19.51,2.2,19],[37.4282,-122.0108,19.59,2.7,18],[37.4276,-122.0114,19.81,2.2,16],[37.427,-122.012,19.9,2.3,18],[37.4265,-122.0126,19.98,2.7,18],[37.4259,-122.0132,20.06,2.6,17],[37.4254,-122.0138,20.14,2.8,17],[37.4248,-122.0145,20.22,2.7,17],[37.4248,-122.0154,20.31,2.4,18],[37.4241,-122.0157,20.4,2.4,18],[37.4234,-122.0159,20.49,2.5,20],[37.4228,-122.0165,20.57,2.5,21],[37.4222,-122.0169,20.65,2.5,21],[37.4215,-122.0166,20.74,2.2,20],[37.4208,-122.0162,20.82,2.2,20],[37.4204,-122.0169,20.93,2.3,20],[37.4201,-122.0178,21.03,2.4,18],[37.4195,-122.0184,21.11,2.8,18],[37.42,-122.0176,21.29,2.5,20],[37.4201,-122.0167,21.37,2.7,22],[37.4199,-122.0158,21.46,1.8,24],[37.4197,-122.0148,21.54,1.6,24],[37.4195,-122.0139,21.62,1.7,25],[37.4194,-122.013,21.71,2.2,25],[37.4195,-122.012,21.8,1.8,26],[37.4193,-122.0111,21.88,1.9,26],[37.4192,-122.0102,21.96,1.8,27],[37.4191,-122.0093,22.05,1.8,28],[37.4189,-122.0083,22.13,1.7,28],[37.4188,-122.0074,22.22,1.5,28],[37.4187,-122.0064,22.3,1.6,27],[37.4186,-122.0055,22.39,1.6,26],[37.4184,-122.0046,22.47,1.6,23],[37.4183,-122.0036,22.55,1.9,20],[37.4182,-122.0027,22.63,2.6,19],[37.4178,-122.0019,22.83,2.3,21],[37.4177,-122.001,22.91,2.4,24],[37.4176,-122.0001,22.99,2.5,27],[37.4176,-121.9991,23.08,2.5,27],[37.4176,-121.9982,23.16,2.3,27],[37.4175,-121.9972,23.24,2.1,26],[37.4172,-121.9964,23.33,2.6,26],[37.4171,-121.9955,23.41,2.4,27],[37.417,-121.9945,23.5,2.3,28],[37.417,-121.9936,23.58,2.8,29],[37.417,-121.9926,23.67,2.8,29],[37.417,-121.9917,23.75,3.0,30],[37.417,-121.9907,23.83,3.2,29],[37.417,-121.9898,23.91,3.1,28],[37.417,-121.9889,24.0,3.1,27],[37.417,-121.9879,24.08,3.2,26],[37.4169,-121.987,24.17,3.5,26],[37.4162,-121.987,24.25,3.6,25],[37.4154,-121.987,24.33,3.6,25],[37.4147,-121.9869,24.42,3.4,22],[37.4139,-121.9869,24.5,3.5,19],[37.4132,-121.987,24.58,3.5,18],[37.4125,-121.9869,24.67,4.4,19],[37.4128,-121.9861,24.75,3.1,20],[37.4129,-121.9852,24.83,2.0,25],[37.4133,-121.9844,24.92,1.7,30],[37.4137,-121.9836,25.0,1.7,31],[37.4141,-121.9828,25.08,1.6,29],[37.4144,-121.982,25.16,1.6,25],[37.4148,-121.9812,25.25,2.6,20],[37.4154,-121.9806,25.34,3.9,19],[37.4148,-121.9812,25.51,2.5,21],[37.4144,-121.9821,25.6,1.6,28],[37.414,-121.9829,25.69,1.6,30],[37.4137,-121.9837,25.77,1.7,29],[37.4133,-121.9845,25.85,1.7,28],[37.4129,-121.9853,25.93,2.1,25],[37.4128,-121.9863,26.02,3.6,24],[37.4133,-121.9869,26.18,3.5,23],[37.4141,-121.9868,26.27,3.5,23],[37.4148,-121.9868,26.35,3.4,25],[37.4155,-121.9869,26.43,3.6,24],[37.4163,-121.9869,26.51,3.6,24],[37.417,-121.987,26.6,3.5,24],[37.4171,-121.988,26.68,3.1,25],[37.4171,-121.9889,26.76,3.1,25],[37.417,-121.9898,26.85,3.1,26],[37.4171,-121.9908,26.93,3.2,26],[37.4171,-121.9917,27.01,3.0,26],[37.4171,-121.9927,27.1,2.8,25],[37.4171,-121.9936,27.18,2.8,24],[37.417,-121.9945,27.26,2.3,23],[37.4171,-121.9955,27.34,2.4,22],[37.4172,-121.9964,27.43,2.6,23],[37.4176,-121.9972,27.51,2.1,24],[37.4177,-121.9981,27.6,2.2,24],[37.4177,-121.9991,27.68,2.5,24],[37.4177,-122.0,27.77,2.5,24],[37.4178,-122.001,27.85,2.4,22],[37.4178,-122.0019,27.93,2.3,22],[37.418,-122.0028,28.01,2.6,21],[37.4183,-122.0036,28.1,1.9,21],[37.4184,-122.0046,28.19,1.6,21],[37.4186,-122.0055,28.27,1.6,22],[37.4187,-122.0065,28.36,1.6,22],[37.4188,-122.0074,28.44,1.5,22],[37.4189,-122.0083,28.52,1.7,22],[37.4191,-122.0092,28.6,1.8,22],[37.4192,-122.0102,28.69,1.8,22],[37.4193,-122.0111,28.77,1.9,22],[37.4195,-122.012,28.85,1.8,22],[37.4194,-122.0129,28.93,2.2,22],[37.4195,-122.0139,29.02,1.7,21],[37.4197,-122.0148,29.11,1.6,21],[37.4199,-122.0157,29.19,1.8,21],[37.42,-122.0166,29.27,2.7,21],[37.4201,-122.0175,29.36,2.4,20],[37.4195,-122.0181,29.44,2.5,20],[37.4201,-122.0178,29.62,2.3,21],[37.4206,-122.0185,29.71,0.5,23],[37.4208,-122.0194,29.79,0.5,24],[37.4211,-122.0202,29.88,0.5,24],[37.4214,-122.0211,29.96,0.6,24],[37.4217,-122.022,30.05,0.7,24],[37.422,-122.0228,30.13,0.7,23],[37.4223,-122.0237,30.21,0.8,23],[37.4226,-122.0246,30.3,0.8,22],[37.4228,-122.0254,30.38,0.8,22],[37.4231,-122.0263,30.46,0.7,23],[37.4237,-122.027,30.55,0.6,23],[37.4244,-122.0272,30.63,0.5,23],[37.425,-122.0278,30.72,0.6,23],[37.4252,-122.0287,30.8,0.7,23],[37.4254,-122.0296,30.89,0.8,22],[37.4255,-122.0305,30.97,0.7,22],[37.4257,-122.0314,31.05,0.6,22],[37.4259,-122.0323,31.13,1.0,22],[37.4261,-122.0332,31.21,0.9,20],[37.4262,-122.0341,31.29,0.9,19],[37.4265,-122.0349,31.38,0.7,18],[37.4269,-122.0357,31.48,0.9,18],[37.427,-122.0366,31.56,1.0,19],[37.427,-122.0376,31.64,0.7,20],[37.4271,-122.0385,31.72,0.9,21],[37.4272,-122.0394,31.81,1.1,22],[37.4273,-122.0403,31.89,1.3,22],[37.4274,-122.0413,31.97,1.4,23],[37.4275,-122.0422,32.06,1.8,23],[37.4276,-122.0432,32.14,1.7,24],[37.4275,-122.0441,32.23,1.6,24],[37.4272,-122.045,32.31,1.2,24],[37.427,-122.0459,32.39,0.9,24],[37.4268,-122.0468,32.48,0.7,24],[37.4268,-122.0478,32.56,1.0,24],[37.4268,-122.0487,32.64,0.5,23],[37.4273,-122.0494,32.73,0.2,22],[37.4279,-122.05,32.82,0.6,22],[37.4285,-122.0505,32.9,0.4,22],[37.4291,-122.051,32.98,0.4,21],[37.4299,-122.0513,33.07,0.3,21],[37.4306,-122.0515,33.16,0.5,21],[37.4314,-122.0516,33.24,0.5,20],[37.432,-122.052,33.32,0.4,21],[37.4327,-122.0524,33.41,0.7,21],[37.4334,-122.0528,33.49,0.3,21],[37.4341,-122.0531,33.57,0.1,21],[37.4348,-122.0535,33.65,0.4,21],[37.4355,-122.0539,33.74,0.6,21],[37.4358,-122.0547,33.84,0.6,22],[37.4356,-122.0556,33.92,0.4,22],[37.4353,-122.0564,34.0,0.6,23],[37.435,-122.0573,34.09,0.4,22],[37.4347,-122.0582,34.17,0.4,20],[37.4344,-122.059,34.25,0.7,19],[37.4341,-122.0599,34.33,0.8,19],[37.4339,-122.0607,34.41,0.8,18],[37.4336,-122.0616,34.5,0.7,19],[37.4337,-122.0625,34.58,0.6,21],[37.434,-122.0634,34.66,0.5,21],[37.4342,-122.0643,34.75,0.5,21],[37.4344,-122.0652,34.83,0.8,20],[37.4346,-122.0661,34.91,1.0,20],[37.4348,-122.067,34.99,1.2,20],[37.4342,-122.0675,35.11,2.2,22],[37.4334,-122.0675,35.2,2.3,26],[37.4326,-122.0676,35.29,2.3,31],[37.4319,-122.0677,35.37,2.5,32],[37.4312,-122.0679,35.46,2.4,24],[37.4304,-122.068,35.54,2.6,21],[37.4299,-122.0686,35.65,2.9,18],[37.4301,-122.0695,35.82,3.4,19],[37.4308,-122.0699,35.9,3.5,21],[37.4315,-122.0703,35.99,3.2,22],[37.4322,-122.0706,36.08,3.1,23],[37.4329,-122.0708,36.16,3.2,23],[37.4337,-122.0711,36.24,3.2,19],[37.4344,-122.0713,36.33,3.2,19],[37.4351,-122.0715,36.41,3.4,19],[37.4358,-122.0719,36.5,1.7,19],[37.4358,-122.0728,36.58,3.7,20],[37.4358,-122.0737,36.66,3.9,24],[37.4357,-122.0747,36.75,4.0,25],[37.4357,-122.0756,36.83,4.3,26],[37.4355,-122.0766,36.92,4.5,26],[37.4354,-122.0775,37.0,4.6,25],[37.4353,-122.0784,37.09,4.9,24],[37.4352,-122.0794,37.17,5.4,24],[37.4351,-122.0803,37.25,5.6,24],[37.435,-122.0812,37.34,5.2,23],[37.4344,-122.0817,37.44,4.2,25],[37.4338,-122.0823,37.52,3.1,25],[37.4333,-122.083,37.61,3.0,27],[37.4328,-122.0837,37.69,3.1,28],[37.4324,-122.0845,37.78,3.2,27],[37.432,-122.0853,37.87,3.7,25],[37.4322,-122.0862,37.95,4.0,24],[37.4328,-122.0868,38.06,3.6,22],[37.4335,-122.0866,38.15,3.6,21],[37.4342,-122.0863,38.23,3.6,22],[37.4349,-122.0859,38.32,3.9,22],[37.4352,-122.0867,38.41,4.8,23],[37.4353,-122.0876,38.5,4.9,24],[37.4353,-122.0885,38.58,4.9,26],[37.4354,-122.0894,38.66,5.2,27],[37.4354,-122.0904,38.74,5.3,27],[37.4355,-122.0913,38.82,5.4,27],[37.4355,-122.0922,38.9,5.3,25],[37.4356,-122.0932,38.99,5.1,24],[37.4356,-122.0941,39.07,5.2,25],[37.4355,-122.095,39.15,5.0,25],[37.4351,-122.0958,39.24,2.9,26],[37.435,-122.0968,39.33,2.7,27],[37.4354,-122.0976,39.41,2.7,27],[37.4356,-122.0986,39.5,2.3,25],[37.436,-122.0993,39.59,2.2,24],[37.4356,-122.1001,39.68,2.3,23],[37.4352,-122.101,39.77,2.7,22],[37.4349,-122.1018,39.85,2.9,24],[37.4345,-122.1026,39.93,2.9,24],[37.434,-122.1032,40.02,3.0,25],[37.4334,-122.1039,40.1,2.9,24],[37.4328,-122.1045,40.18,2.7,23],[37.4326,-122.1054,40.32,3.3,23],[37.4332,-122.106,40.41,2.6,24],[37.4338,-122.1066,40.49,2.2,27],[37.4344,-122.1072,40.57,2.2,29],[37.435,-122.1078,40.66,2.2,28],[37.4355,-122.1084,40.74,2.2,27],[37.4361,-122.1089,40.82,2.2,25],[37.4366,-122.1095,40.9,2.2,24],[37.4372,-122.1102,40.98,1.8,23],[37.4378,-122.1108,41.07,1.9,23],[37.4384,-122.1113,41.15,1.8,23],[37.4389,-122.1119,41.23,1.7,21],[37.4395,-122.1125,41.31,2.2,21],[37.44,-122.1131,41.39,2.8,21],[37.4406,-122.1137,41.48,2.6,20],[37.4412,-122.1143,41.56,1.6,20],[37.4417,-122.1149,41.64,1.2,21],[37.4423,-122.1155,41.72,1.4,22],[37.4429,-122.1161,41.8,1.2,24],[37.4434,-122.1167,41.89,1.4,25],[37.4441,-122.1173,41.97,1.1,25],[37.4447,-122.1176,42.05,1.2,24],[37.4454,-122.1179,42.14,1.3,23],[37.4458,-122.117,42.23,1.0,22],[37.4465,-122.1172,42.31,0.8,21],[37.4473,-122.1171,42.4,0.9,21],[37.4477,-122.1178,42.54,1.6,18],[37.4475,-122.1187,42.62,1.7,17],[37.4476,-122.1196,42.71,2.1,15],[37.4474,-122.1205,42.8,5.8,15],[37.4471,-122.1213,42.88,10.0,15],[37.4467,-122.1221,42.96,10.5,15],[37.4462,-122.1228,43.05,5.2,16],[37.4459,-122.1236,43.15,2.3,18],[37.4463,-122.1245,43.24,2.4,20],[37.4468,-122.1252,43.33,2.5,20],[37.4463,-122.1259,43.41,2.9,19],[37.4466,-122.1267,43.5,3.3,19],[37.4465,-122.1276,43.59,3.7,19],[37.4459,-122.1283,43.68,3.7,20],[37.4453,-122.1289,43.76,3.4,23],[37.4447,-122.1295,43.85,3.6,25],[37.4441,-122.1301,43.93,3.8,24],[37.4436,-122.1307,44.01,3.9,24],[37.443,-122.1312,44.1,4.1,24],[37.4424,-122.1318,44.18,4.3,23],[37.4418,-122.1324,44.26,4.4,23],[37.4412,-122.133,44.35,4.7,23],[37.4406,-122.1336,44.43,5.2,22],[37.44,-122.1342,44.52,5.6,22],[37.4394,-122.1348,44.61,5.8,22],[37.4388,-122.1354,44.69,6.1,20],[37.4382,-122.1359,44.77,6.3,20],[37.4375,-122.1358,44.88,6.4,19],[37.4368,-122.1361,44.98,6.6,19],[37.4362,-122.1366,45.06,6.8,20],[37.4356,-122.1372,45.14,7.0,21],[37.435,-122.1377,45.22,7.2,21],[37.4344,-122.1382,45.3,7.5,22],[37.4338,-122.1387,45.39,7.9,21],[37.4331,-122.1392,45.47,8.1,21],[37.4325,-122.1398,45.55,8.4,21],[37.4319,-122.1403,45.64,8.6,21],[37.4313,-122.1408,45.72,9.0,20],[37.4307,-122.1413,45.8,9.1,18],[37.43,-122.1416,45.88,9.1,17],[37.4292,-122.1422,45.99,8.1,17],[37.4292,-122.1431,46.09,10.4,18],[37.4297,-122.1439,46.18,10.6,19],[37.4302,-122.1446,46.26,10.8,21],[37.4306,-122.1453,46.34,11.0,21],[37.4311,-122.1461,46.42,11.3,21],[37.4307,-122.1468,46.54,11.6,21],[37.4301,-122.1474,46.62,12.0,20],[37.4294,-122.1479,46.7,12.3,20],[37.4288,-122.1484,46.79,12.9,20],[37.4282,-122.1489,46.87,13.5,22],[37.4276,-122.1495,46.96,13.7,22],[37.4269,-122.15,47.04,14.1,22],[37.4263,-122.1505,47.12,14.3,22],[37.4267,-122.1513,47.27,14.2,19],[37.4269,-122.1522,47.36,14.8,19],[37.4272,-122.153,47.45,15.7,20],[37.427,-122.1539,47.54,16.0,21],[37.4266,-122.1547,47.62,16.5,22],[37.4262,-122.1555,47.7,17.3,18],[37.4257,-122.1561,47.78,18.1,16],[37.4255,-122.157,47.93,18.8,13],[37.4254,-122.1571,47.93,18.8,13]]</script>
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js" integrity="sha384-SYKAG6cglRMN0RVvhNeBY0r3FYKNOJtznwA0v7B5Vp9tr31xAHsZC0DqkQ/pZDmj" crossorigin="anonymous" defer></script>
+<script>
+(function () {
+  'use strict';
+  var mapEl = document.getElementById('ride-map'), src = document.getElementById('ride-route'),
+      prof = document.getElementById('ride-profile'), plot = document.getElementById('ride-profile-plot'),
+      readout = document.getElementById('ride-readout'), elevLabel = document.getElementById('ride-elev'), P;
+  if (!mapEl || !src) return;
+  try {
+    P = JSON.parse(src.textContent).map(function (p) { return { lat: p[0], lon: p[1], km: p[2], ele: p[3], v: p[4] }; });
+  } catch (e) { return; }
+  if (P.length < 2) return;
+
+  function hav(a, b) {                      // great-circle distance, km
+    var r = Math.PI / 180, dLat = (b.lat - a.lat) * r, dLon = (b.lon - a.lon) * r,
+        h = Math.pow(Math.sin(dLat / 2), 2) + Math.cos(a.lat * r) * Math.cos(b.lat * r) * Math.pow(Math.sin(dLon / 2), 2);
+    return 12742 * Math.asin(Math.sqrt(h));
+  }
+  if (P[0].km == null) {                    // older [lat, lon] data: work out the distances here
+    P[0].km = 0;
+    for (var q = 1; q < P.length; q++) P[q].km = P[q - 1].km + hav(P[q - 1], P[q]);
+  }
+  var N = P.length, total = P[N - 1].km, i, j;
+  var loop = hav(P[0], P[N - 1]) < 0.3, turn = 0, outBack = false;
+  for (i = 1; i < N; i++) if (hav(P[0], P[i]) > hav(P[0], P[turn])) turn = i;
+  if (loop && turn > 0 && turn < N - 1) {   // out-and-back if most of the return retraces the way out
+    var near = 0, cnt = 0;
+    for (i = turn + 1; i < N; i += 3) {
+      cnt++;
+      for (j = 0; j < turn; j++) if (hav(P[i], P[j]) < 0.12) { near++; break; }
+    }
+    outBack = cnt > 0 && near / cnt > 0.6;
+  }
+  var photo = null, pa = (mapEl.getAttribute('data-photo') || '').split(',');
+  if (pa.length === 2 && pa[0] !== '' && isFinite(+pa[0]) && isFinite(+pa[1])) {
+    var ph = { lat: +pa[0], lon: +pa[1] }, pi = 0;
+    for (i = 1; i < N; i++) if (hav(ph, P[i]) < hav(ph, P[pi])) pi = i;
+    if (hav(ph, P[pi]) < 0.5) photo = { lat: ph.lat, lon: ph.lon, i: pi };
+  }
+
+  function idxAt(km) {                      // nearest point by distance along the ride
+    var lo = 0, hi = N - 1;
+    while (hi - lo > 1) { var mid = (lo + hi) >> 1; if (P[mid].km < km) lo = mid; else hi = mid; }
+    return km - P[lo].km <= P[hi].km - km ? lo : hi;
+  }
+  function one(n) { return n.toFixed(1); }
+  function describePair(k, m) {             // a shared stretch of an out-and-back: report both passes, way out first
+    var a = Math.min(k, m), b = Math.max(k, m), s = one(P[a].km) + ' km out · ' + one(P[b].km) + ' km back';
+    if (P[a].ele != null) s += ' · ' + Math.round(P[a].ele) + ' m elevation';
+    return s;
+  }
+  function describe(k) {
+    var p = P[k], s = one(p.km) + ' km';
+    if (p.v != null) s += ' · ' + p.v + ' km/h';
+    if (p.ele != null) s += ' · ' + Math.round(p.ele) + ' m elevation';
+    return s;
+  }
+
+  var hint = readout ? readout.textContent : '', hooks = [], cur = -1, cur2 = -1, geom = null;
+  function setCursor(k, from, k2) {            // k2: the other pass over the same spot, if any
+    cur = k; cur2 = k >= 0 && k2 != null && k2 >= 0 ? k2 : -1;
+    drawCursor();
+    var text = k < 0 ? hint : cur2 >= 0 ? describePair(k, cur2) : describe(k);
+    if (readout) readout.textContent = text;
+    if (plot) {
+      plot.setAttribute('aria-valuenow', k < 0 ? '0' : one(P[k].km));
+      plot.setAttribute('aria-valuetext', k < 0 ? 'Start of the ride' : text);
+    }
+    for (var h = 0; h < hooks.length; h++) hooks[h](k, from);
+  }
+
+  /* ---- elevation profile: scrub along it to follow the ride on the map ---- */
+  var hasEle = P.every(function (p) { return p.ele != null; });
+  function place(line, dot, k) {
+    if (k < 0) { line.style.visibility = dot.style.visibility = 'hidden'; return; }
+    var x = geom.X(P[k].km).toFixed(1), y = geom.Y(P[k].ele).toFixed(1);
+    line.setAttribute('x1', x); line.setAttribute('x2', x);
+    dot.setAttribute('cx', x); dot.setAttribute('cy', y);
+    line.style.visibility = dot.style.visibility = 'visible';
+  }
+  function drawCursor() {
+    if (!geom) return;
+    place(geom.line[0], geom.dot[0], cur);
+    place(geom.line[1], geom.dot[1], cur2);
+  }
+  function drawProfile() {
+    var W = plot.clientWidth, H = plot.clientHeight || 76, top = 16, bot = H - 16;
+    if (!W) return;
+    var eMin = Infinity, eMax = -Infinity;
+    P.forEach(function (p) { eMin = Math.min(eMin, p.ele); eMax = Math.max(eMax, p.ele); });
+    var lo = Math.min(0, Math.floor(eMin / 5) * 5), hi = Math.max(lo + 10, Math.ceil(eMax / 5) * 5);
+    function X(km) { return km / total * W; }
+    function Y(e) { return bot - (e - lo) / (hi - lo) * (bot - top); }
+    var d = '', s = [], k;
+    P.forEach(function (p, n) { d += (n ? 'L' : 'M') + X(p.km).toFixed(1) + ' ' + Y(p.ele).toFixed(1); });
+    s.push('<svg width="' + W + '" height="' + H + '" viewBox="0 0 ' + W + ' ' + H + '" aria-hidden="true" focusable="false">');
+    s.push('<defs><linearGradient id="ride-fill" x1="0" y1="0" x2="0" y2="1"><stop class="rp-stop" offset="0" stop-opacity=".38"/><stop class="rp-stop" offset="1" stop-opacity=".04"/></linearGradient></defs>');
+    s.push('<line class="rp-grid" x1="0" x2="' + W + '" y1="' + top + '" y2="' + top + '"/>');
+    s.push('<path d="' + d + 'L' + X(total).toFixed(1) + ' ' + bot + 'L0 ' + bot + 'Z" fill="url(#ride-fill)"/>');
+    s.push('<path class="rp-line" d="' + d + '"/>');
+    s.push('<line class="rp-axis" x1="0" x2="' + W + '" y1="' + bot + '" y2="' + bot + '"/>');
+    var step = total > 80 ? 20 : total > 25 ? 10 : 5;
+    for (k = step; k < total - step * 0.3; k += step) {
+      var x = X(k).toFixed(1);
+      s.push('<line class="rp-axis" x1="' + x + '" x2="' + x + '" y1="' + bot + '" y2="' + (bot + 4) + '"/>');
+      s.push('<text x="' + x + '" y="' + (H - 2) + '" text-anchor="middle">' + k + ' km</text>');
+    }
+    function mark(km, label) {
+      var mx = X(km), anchor = mx < 40 ? 'start' : mx > W - 40 ? 'end' : 'middle';
+      s.push('<line class="rp-mark" x1="' + mx.toFixed(1) + '" x2="' + mx.toFixed(1) + '" y1="' + (top - 3) + '" y2="' + bot + '"/>');
+      s.push('<text class="rp-label" x="' + mx.toFixed(1) + '" y="' + (top - 6) + '" text-anchor="' + anchor + '">' + label + '</text>');
+    }
+    if (loop && turn > 0) mark(P[turn].km, outBack ? 'turnaround' : 'farthest point');
+    if (photo) mark(P[photo.i].km, 'photo stop');
+    for (k = 0; k < 2; k++) {                // two cursors: the second shows the other pass of an out-and-back
+      s.push('<line class="rp-cursor" x1="0" x2="0" y1="' + top + '" y2="' + bot + '" style="visibility:hidden"/>');
+      s.push('<circle class="rp-dot" r="4.5" cx="0" cy="0" style="visibility:hidden"/>');
+    }
+    s.push('</svg>');
+    plot.innerHTML = s.join('');
+    geom = { X: X, Y: Y, line: plot.querySelectorAll('.rp-cursor'), dot: plot.querySelectorAll('.rp-dot') };
+    if (elevLabel) elevLabel.textContent = 'Elevation · ' + Math.round(eMin) + '–' + Math.round(eMax) + ' m';
+    drawCursor();
+  }
+  if (prof && plot && hasEle) {
+    prof.hidden = false;
+    plot.setAttribute('aria-valuemax', one(total));
+    drawProfile();
+    if (window.ResizeObserver) new ResizeObserver(drawProfile).observe(plot);
+    else window.addEventListener('resize', drawProfile);
+    var dragging = false, fromEvent = function (e) {
+      var r = plot.getBoundingClientRect();
+      return idxAt(Math.max(0, Math.min(1, (e.clientX - r.left) / (r.width || 1))) * total);
+    };
+    plot.addEventListener('pointerdown', function (e) {
+      dragging = true;
+      try { plot.setPointerCapture(e.pointerId); } catch (err) {}
+      setCursor(fromEvent(e), 'profile');
+    });
+    plot.addEventListener('pointermove', function (e) { if (dragging || e.pointerType === 'mouse') setCursor(fromEvent(e), 'profile'); });
+    plot.addEventListener('pointerup', function () { dragging = false; });
+    plot.addEventListener('pointercancel', function () { dragging = false; });
+    plot.addEventListener('pointerleave', function (e) { if (e.pointerType === 'mouse' && !dragging) setCursor(-1, 'profile'); });
+    plot.addEventListener('keydown', function (e) {
+      var km = cur < 0 ? 0 : P[cur].km,
+          step = { ArrowRight: 0.5, ArrowUp: 0.5, ArrowLeft: -0.5, ArrowDown: -0.5, PageUp: 5, PageDown: -5 }[e.key];
+      if (e.key === 'Home') km = 0; else if (e.key === 'End') km = total; else if (step) km += step; else return;
+      e.preventDefault();
+      setCursor(idxAt(Math.max(0, Math.min(total, km))), 'key');
+    });
+    plot.addEventListener('blur', function () { setCursor(-1, 'key'); });
+  }
+
+  /* ---- live map: MapLibre GL JS + OpenFreeMap tiles (no key); static SVG stays if anything fails ---- */
+  window.addEventListener('load', function () {
+    if (!window.maplibregl) return;
+    var fallback = mapEl.innerHTML, loaded = false, touched = false, map, fig = mapEl.parentNode,
+        still = !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches),
+        canHover = !!(window.matchMedia && window.matchMedia('(hover: hover)').matches),
+        STYLES = { Light: 'https://tiles.openfreemap.org/styles/positron', Detailed: 'https://tiles.openfreemap.org/styles/liberty' },
+        EMPTY = { type: 'FeatureCollection', features: [] },
+        INK = (getComputedStyle(mapEl).getPropertyValue('--tint-ink') || '').trim() || '#46613c',   // card colour
+        CAMERA = '<svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path d="M4 8h3.2l1.8-2.5h6L16.8 8H20v11H4z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><circle cx="12" cy="13.2" r="3.1" fill="none" stroke="currentColor" stroke-width="2"/></svg>',
+        ROUTE = '<svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><path d="M5 15c4 0 1-9 5-9s1 9 5 9" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="4" cy="15" r="2" fill="currentColor"/><circle cx="16" cy="15" r="2" fill="currentColor"/></svg>';
+    function restore() {
+      if (loaded) return;
+      hooks.length = 0;
+      try { if (map) map.remove(); } catch (e) {}
+      mapEl.classList.remove('is-live'); mapEl.innerHTML = fallback;
+    }
+    function pointAt(k) { return { type: 'Feature', properties: {}, geometry: { type: 'Point', coordinates: coords[k] } }; }
+    function ctrl(className, build) {
+      var d;
+      return {
+        onAdd: function () { d = document.createElement('div'); d.className = 'maplibregl-ctrl ' + className; build(d); return d; },
+        onRemove: function () { if (d && d.parentNode) d.parentNode.removeChild(d); }
+      };
+    }
+    try {
+      var coords = P.map(function (p) { return [p.lon, p.lat]; });
+      var bounds = coords.reduce(function (b, c) { return b.extend(c); }, new maplibregl.LngLatBounds(coords[0], coords[0]));
+      var fit = { padding: { top: 40, bottom: 36, left: 52, right: 36 }, duration: 0 };
+      mapEl.innerHTML = ''; mapEl.classList.add('is-live');
+      map = new maplibregl.Map({
+        container: mapEl, style: STYLES.Light, bounds: bounds, fitBoundsOptions: fit,
+        cooperativeGestures: true,             // the page scrolls normally; Ctrl/⌘ + scroll or two fingers move the map
+        dragRotate: false, pitchWithRotate: false, touchPitch: false,
+        attributionControl: { compact: true }
+      });
+      map.touchZoomRotate.disableRotation();
+      if (map.keyboard && map.keyboard.disableRotation) map.keyboard.disableRotation();
+
+      map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-left');
+      map.addControl(ctrl('maplibregl-ctrl-group', function (d) {
+        var b = document.createElement('button');
+        b.type = 'button'; b.className = 'ride-fit'; b.title = 'Show the whole route';
+        b.setAttribute('aria-label', 'Show the whole route'); b.innerHTML = ROUTE;
+        b.addEventListener('click', function () {
+          touched = false;
+          map.fitBounds(bounds, { padding: fit.padding, duration: still ? 0 : 600 });
+        });
+        d.appendChild(b);
+      }), 'top-left');
+      if (maplibregl.FullscreenControl) map.addControl(new maplibregl.FullscreenControl({ container: fig }), 'top-left');
+      var styleName = 'Light';
+      map.addControl(ctrl('ride-style', function (d) {
+        d.setAttribute('role', 'group'); d.setAttribute('aria-label', 'Map style');
+        Object.keys(STYLES).forEach(function (name) {
+          var b = document.createElement('button');
+          b.type = 'button'; b.textContent = name; b.setAttribute('aria-pressed', String(name === styleName));
+          b.addEventListener('click', function () {
+            if (name === styleName) return;
+            styleName = name;
+            Array.prototype.forEach.call(d.children, function (x) { x.setAttribute('aria-pressed', String(x === b)); });
+            map.setStyle(STYLES[name], { diff: false });   // route layers are re-added on style.load
+          });
+          d.appendChild(b);
+        });
+      }), 'top-right');
+      map.addControl(new maplibregl.ScaleControl({ maxWidth: 90, unit: 'metric' }), 'bottom-left');
+
+      function addRide() {
+        if (!map.getSource || map.getSource('ride')) return;
+        var round = { 'line-join': 'round', 'line-cap': 'round' };
+        map.addSource('ride', { type: 'geojson', data: { type: 'Feature', properties: {}, geometry: { type: 'LineString', coordinates: coords } } });
+        map.addSource('ride-cursor', { type: 'geojson', data: cur < 0 ? EMPTY : pointAt(cur) });
+        map.addLayer({ id: 'ride-halo', type: 'line', source: 'ride', layout: round,
+          paint: { 'line-color': '#ffffff', 'line-opacity': 0.9, 'line-width': ['interpolate', ['linear'], ['zoom'], 10, 6, 15, 10] } });
+        map.addLayer({ id: 'ride-line', type: 'line', source: 'ride', layout: round,
+          paint: { 'line-color': INK, 'line-width': ['interpolate', ['linear'], ['zoom'], 10, 3, 15, 5.5] } });
+        map.addLayer({ id: 'ride-hit', type: 'line', source: 'ride', layout: round,
+          paint: { 'line-color': '#000000', 'line-opacity': 0, 'line-width': 18 } });
+        map.addLayer({ id: 'ride-cursor', type: 'circle', source: 'ride-cursor',
+          paint: { 'circle-radius': 6.5, 'circle-color': '#c39272', 'circle-stroke-color': '#ffffff', 'circle-stroke-width': 2.5 } });
+      }
+
+      function pin(cls, label, html, lngLat, popupHtml) {
+        var el = document.createElement('div');
+        el.className = 'ride-pin ' + cls; el.title = label;
+        el.setAttribute('role', 'button'); el.setAttribute('aria-label', label);
+        if (html) el.innerHTML = html;
+        return new maplibregl.Marker({ element: el }).setLngLat(lngLat)
+          .setPopup(new maplibregl.Popup({ offset: 16, closeButton: false, className: 'ride-popup', maxWidth: '240px' }).setHTML(popupHtml))
+          .addTo(map);
+      }
+      pin('start', loop ? 'Start and finish' : 'Start', '', coords[0], '<b>' + (loop ? 'Start &amp; finish' : 'Start') + '</b> · ' + one(total) + ' km ride');
+      if (!loop) pin('finish', 'Finish', '', coords[N - 1], '<b>Finish</b> · ' + one(total) + ' km');
+      else if (turn > 0) pin('turn', outBack ? 'Turnaround' : 'Farthest point', '', coords[turn],
+        '<b>' + (outBack ? 'Turnaround' : 'Farthest point') + '</b> · ' + one(P[turn].km) + ' km');
+      if (photo) {
+        var thumb = mapEl.getAttribute('data-photo-thumb'), full = mapEl.getAttribute('data-photo-full') || thumb;
+        pin('photo', 'Photo stop', CAMERA, [photo.lon, photo.lat],
+          (thumb ? '<a href="' + full + '"><img src="' + thumb + '" width="200" height="133" alt="The bike at this stop"></a>' : '') +
+          '<b>Photo stop</b> · ' + one(P[photo.i].km) + ' km');
+      }
+
+      var tip = new maplibregl.Popup({ closeButton: false, closeOnClick: false, className: 'ride-tip', offset: 12, maxWidth: 'none' });
+      function onLine(e) {
+        var proj = coords.map(function (c) { return map.project(c); }), best = 0, bd = Infinity, other = -1, od = 196, n, dd;
+        for (n = 0; n < N; n++) {
+          dd = Math.pow(proj[n].x - e.point.x, 2) + Math.pow(proj[n].y - e.point.y, 2);
+          if (dd < bd) { bd = dd; best = n; }
+        }
+        for (n = 0; n < N; n++) {                // the other pass of an out-and-back stretch, if it is under the pointer too
+          if (Math.abs(P[n].km - P[best].km) < 3) continue;
+          dd = Math.pow(proj[n].x - e.point.x, 2) + Math.pow(proj[n].y - e.point.y, 2);
+          if (dd < od) { od = dd; other = n; }
+        }
+        tip.setLngLat(coords[best]).setText(other >= 0 ? describePair(best, other) : describe(best)).addTo(map);
+        setCursor(best, 'map', other);
+        map.getCanvas().style.cursor = 'crosshair';
+      }
+      map.on('mousemove', 'ride-hit', onLine);
+      map.on('click', 'ride-hit', onLine);
+      map.on('mouseleave', 'ride-hit', function () { tip.remove(); map.getCanvas().style.cursor = ''; setCursor(-1, 'map'); });
+      map.on('click', function (e) {             // tap away from the route clears the readout (touch screens)
+        if (!map.getLayer('ride-hit') || !map.queryRenderedFeatures(e.point, { layers: ['ride-hit'] }).length) { tip.remove(); setCursor(-1, 'map'); }
+      });
+      hooks.push(function (k, from) {
+        var s = map.getSource && map.getSource('ride-cursor');
+        if (!s) return;
+        s.setData(k < 0 ? EMPTY : pointAt(k));
+        if (from !== 'map') {
+          tip.remove();
+          if (k >= 0 && !map.getBounds().contains(coords[k])) map.easeTo({ center: coords[k], duration: still ? 0 : 300 });
+        }
+      });
+
+      map.on('style.load', addRide);
+      map.on('load', function () {
+        loaded = true;
+        addRide();
+        map.resize();
+        map.fitBounds(bounds, fit);
+        if (readout) {
+          hint = (canHover ? 'Hover over the route' : 'Tap the route') + ' or drag along the profile';
+          if (cur < 0) readout.textContent = hint;
+        }
+      });
+      map.on('movestart', function (e) { if (e.originalEvent) touched = true; });
+      map.on('resize', function () { if (!touched) map.fitBounds(bounds, fit); });   // keep the whole route in view until someone pans
+      map.on('error', function () { if (!loaded) restore(); });
+      setTimeout(restore, 12000);                // give up quietly if the tiles never arrive
+    } catch (e) { restore(); }
+  });
+})();
+</script>
+</body>
+</html>

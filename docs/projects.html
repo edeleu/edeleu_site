@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light only">
+<title>Projects · Edward Deleu</title>
+<meta name="description" content="Research by Edward Deleu: defect emitters in hBN, strain in 2D semiconductors, quantum Hall physics, materials characterization, and machine learning.">
+<meta name="author" content="Edward Deleu">
+<meta name="theme-color" content="#faf9f5">
+<link rel="canonical" href="https://edeleu.com/projects.html">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Edward Deleu">
+<meta property="og:title" content="Projects · Edward Deleu">
+<meta property="og:description" content="Research by Edward Deleu: defect emitters in hBN, strain in 2D semiconductors, quantum Hall physics, materials characterization, and machine learning.">
+<meta property="og:url" content="https://edeleu.com/projects.html">
+<meta property="og:image" content="https://edeleu.com/assets/share-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Edward Deleu, PhD student in Materials Science and Engineering at Stanford">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body id="top">
+<a class="skip" href="#main">Skip to content</a>
+<header class="wrap header">
+  <a href="index.html" class="brand"><img src="favicon.svg" alt="" width="22" height="22">Edward Deleu</a>
+  <nav class="site-nav" aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a href="projects.html" aria-current="page">Projects</a>
+    <a href="personal.html">Personal</a>
+    <a href="documents/edward-deleu-cv.pdf">CV</a>
+  </nav>
+</header>
+
+<main class="wrap" id="main">
+<div class="intro-grid">
+<div class="intro-main">
+<div class="page-intro overview">
+  <p class="eyebrow">Research &amp; projects</p>
+  <h1>Projects</h1>
+  <p class="lede">My work applies computation, from first-principles electronic-structure methods to machine learning, to questions in materials science and condensed-matter physics. The projects below trace an arc: data-driven modeling of magnetic materials, numerical studies of topology in disordered quantum Hall systems, the strain-tunable electronic structure of two-dimensional semiconductors, and, in my PhD, optically active defects in hexagonal boron nitride (hBN).</p>
+  <p class="section-note">Figures open at full resolution. “More detail” expands each project’s full description.</p>
+</div>
+<nav class="topic-nav" aria-label="Project topics">
+  <a class="sage" href="#materials">Materials &amp; quantum physics <span class="count">4</span></a>
+  <a class="clay" href="#characterization">Microscopy &amp; characterization <span class="count">2</span></a>
+  <a class="lilac" href="#learning">Machine learning <span class="count">3</span></a>
+</nav>
+</div>
+<figure class="intro-figure">
+  <img src="assets/figures/hbn-exciton.svg" width="400" height="400" loading="lazy" alt="Schematic of a honeycomb hBN lattice with a four-carbon defect at its center, surrounded by a shaded exciton envelope with dashed contours, and a wavy arrow for an emitted photon.">
+  <figcaption>Schematic of my PhD focus: an exciton (shaded) bound to a four-carbon defect in monolayer hBN, emitting a single photon. Illustrative, not computed data.</figcaption>
+</figure>
+</div>
+
+<!-- research-arc:start -->
+<figure class="research-arc" aria-labelledby="arc-cap">
+<svg class="arc-svg" viewBox="0 0 1000 286" role="group" aria-label="Research arc: projects from 2021 to the present, linked to their entries">
+<defs><linearGradient id="arcg" x1="0" x2="1" y1="0" y2="0"><stop offset="0" stop-color="#b6a5d3"/><stop offset=".5" stop-color="#d9b59a"/><stop offset="1" stop-color="#7d9a70"/></linearGradient><marker id="arch" viewBox="0 0 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto"><path d="M2 1.5 8 5 2 8.5" fill="none" stroke="#7d9a70" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect class="arc-era" x="11.0" y="10" width="147.4" height="266" rx="10" fill="#f5f4ef"/>
+<rect x="21.0" y="10" width="127.4" height="3" rx="1.5" fill="#d6d8cf"/>
+<text x="84.7" y="266.0" text-anchor="middle" class="arc-era-label" fill="#6c726a">Before Princeton</text>
+<rect class="arc-era" x="164.4" y="10" width="671.1" height="266" rx="10" fill="#fcf3ea"/>
+<rect x="174.4" y="10" width="651.1" height="3" rx="1.5" fill="#e8a35c"/>
+<text x="500.0" y="266.0" text-anchor="middle" class="arc-era-label" fill="#9a5410">Princeton · undergraduate</text>
+<rect class="arc-era" x="841.6" y="10" width="147.4" height="266" rx="10" fill="#f9eeee"/>
+<rect x="851.6" y="10" width="127.4" height="3" rx="1.5" fill="#b5524f"/>
+<text x="915.3" y="266.0" text-anchor="middle" class="arc-era-label" fill="#8c1515">Stanford · PhD</text>
+<path d="M105.0 184.0 C123.8 184.0 180.2 188.2 217.9 184.1 C255.5 180.0 293.1 167.0 330.7 159.7 C368.3 152.3 406.0 143.2 443.6 140.0 C481.2 136.8 518.8 142.4 556.4 140.6 C594.0 138.9 631.7 136.3 669.3 129.5 C706.9 122.7 744.5 107.2 782.1 99.9 C819.8 92.7 876.2 88.2 895.0 85.8" fill="none" stroke="#ffffff" stroke-width="11" stroke-linecap="round"/>
+<path d="M105.0 184.0 C123.8 184.0 180.2 188.2 217.9 184.1 C255.5 180.0 293.1 167.0 330.7 159.7 C368.3 152.3 406.0 143.2 443.6 140.0 C481.2 136.8 518.8 142.4 556.4 140.6 C594.0 138.9 631.7 136.3 669.3 129.5 C706.9 122.7 744.5 107.2 782.1 99.9 C819.8 92.7 876.2 88.2 895.0 85.8" fill="none" stroke="url(#arcg)" stroke-width="4.5" stroke-linecap="round"/>
+<path d="M914.0 81.8 Q932.0 79.8 953.0 69.8" fill="none" stroke="#7d9a70" stroke-width="3" stroke-linecap="round" stroke-dasharray="1 7" marker-end="url(#arch)"/>
+<a href="#pedestrian-counting" class="arc-node">
+<title>Pedestrian counting (2021)</title>
+<circle class="arc-dot" cx="105.0" cy="184.0" r="15" fill="#ffffff" stroke="#9883b4" stroke-width="2.5"/>
+<g transform="translate(105.0 184.0)" fill="none" stroke="#614c76" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M-8.5 -3v10" stroke-width="1.7"/><path d="M-8.5 3.5h3.6l1.4-2.6" stroke-width="1.3"/><g transform="translate(1 -1.2) rotate(14)"><rect x="-5.2" y="-3" width="10.4" height="5.6" rx="1.4"/><path d="M5.2 -2.2l2.4 -.7v4.2l-2.4 -.7" stroke-width="1.2"/><circle cx="-2.6" cy="-.2" r=".9" fill="#614c76" stroke="none"/></g></g>
+<text x="105.0" y="221.0" text-anchor="middle" class="arc-year" fill="#614c76">2021</text>
+<text x="105.0" y="238.0" text-anchor="middle" class="arc-title">Pedestrian counting</text>
+</a>
+<a href="#core-loss" class="arc-node">
+<title>Magnetic core loss (2023–24)</title>
+<circle class="arc-dot" cx="217.9" cy="184.1" r="15" fill="#ffffff" stroke="#9883b4" stroke-width="2.5"/>
+<g transform="translate(217.9 184.1)" fill="none" stroke="#614c76" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M-8 0H8M0 -7V7" stroke-width=".8" stroke-opacity=".45"/><path d="M-7 5.5C-7 -1 -2 -5.5 7 -5.5"/><path d="M7 -5.5C7 1 2 5.5 -7 5.5"/></g>
+<text x="217.9" y="139.1" text-anchor="middle" class="arc-year" fill="#614c76">2023–24</text>
+<text x="217.9" y="156.1" text-anchor="middle" class="arc-title">Magnetic core loss</text>
+</a>
+<a href="#colorization" class="arc-node">
+<title>GAN colorization (2024)</title>
+<circle class="arc-dot" cx="330.7" cy="159.7" r="15" fill="#ffffff" stroke="#9883b4" stroke-width="2.5"/>
+<g transform="translate(330.7 159.7)" fill="none" stroke="#614c76" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="-7" y="-6" width="14" height="12" rx="2"/><path d="M0 -6v12" stroke-width="1"/><path d="M0.6 -5.4h5.2a1.4 1.4 0 0 1 1.4 1.4v8a1.4 1.4 0 0 1 -1.4 1.4H0.6z" fill="#b6a5d3" stroke="none"/><path d="M-5 3.5 -2.5 0 0 3" stroke-width="1.2"/></g>
+<text x="330.7" y="196.7" text-anchor="middle" class="arc-year" fill="#614c76">2024</text>
+<text x="330.7" y="213.7" text-anchor="middle" class="arc-title">GAN colorization</text>
+</a>
+<a href="#quantum-hall" class="arc-node">
+<title>Quantum Hall topology (2024–25)</title>
+<circle class="arc-dot" cx="443.6" cy="140.0" r="15" fill="#ffffff" stroke="#7d9a70" stroke-width="2.5"/>
+<g transform="translate(443.6 140.0)" fill="none" stroke="#46613c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M-8 7.5H8M-8 7.5V-8" stroke-width="1" stroke-opacity=".55"/><path d="M-6.5 5.5H-3.6C-2.8 5.5 -2.8 2 -2 2H0.6C1.4 2 1.4 -1.6 2.2 -1.6H4.6C5.4 -1.6 5.4 -5.2 6.2 -5.2H7.5" stroke-width="1.6"/></g>
+<text x="443.6" y="95.0" text-anchor="middle" class="arc-year" fill="#46613c">2024–25</text>
+<text x="443.6" y="112.0" text-anchor="middle" class="arc-title">Quantum Hall topology</text>
+</a>
+<a href="#mse505-lab" class="arc-node">
+<title>Characterization lab (2025)</title>
+<circle class="arc-dot" cx="556.4" cy="140.6" r="15" fill="#ffffff" stroke="#c39272" stroke-width="2.5"/>
+<g transform="translate(556.4 140.6)" fill="none" stroke="#7a4d33" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M-4 -7h8M-3.5 -7 0 3 3.5 -7"/><path d="M-7 5h14" stroke-width="2"/><path d="M-2.5 3.5 -4.5 1.5M2.5 3.5 4.5 1.5" stroke-width="1"/></g>
+<text x="556.4" y="177.6" text-anchor="middle" class="arc-year" fill="#7a4d33">2025</text>
+<text x="556.4" y="194.6" text-anchor="middle" class="arc-title">Characterization lab</text>
+</a>
+<a href="#strain-engineering" class="arc-node">
+<title>TMD strain thesis (2025–26)</title>
+<circle class="arc-dot" cx="669.3" cy="129.5" r="15" fill="#ffffff" stroke="#7d9a70" stroke-width="2.5"/>
+<g transform="translate(669.3 129.5)" fill="none" stroke="#46613c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M-8 -4.6L-4 0L0 -4.6L4 0L8 -4.6M-8 4.6L-4 0L0 4.6L4 0L8 4.6" stroke-width="1" stroke-opacity=".75"/><circle cx="-4" cy="0" r="2.4" fill="#46613c" stroke="none"/><circle cx="4" cy="0" r="2.4" fill="#46613c" stroke="none"/><circle cx="-8" cy="-4.6" r="1.9" fill="#ffffff" stroke-width="1.1"/><circle cx="-8" cy="4.6" r="1.9" fill="#ffffff" stroke-width="1.1"/><circle cx="0" cy="-4.6" r="1.9" fill="#ffffff" stroke-width="1.1"/><circle cx="0" cy="4.6" r="1.9" fill="#ffffff" stroke-width="1.1"/><circle cx="8" cy="-4.6" r="1.9" fill="#ffffff" stroke-width="1.1"/><circle cx="8" cy="4.6" r="1.9" fill="#ffffff" stroke-width="1.1"/></g>
+<text x="669.3" y="84.5" text-anchor="middle" class="arc-year" fill="#46613c">2025–26</text>
+<text x="669.3" y="101.5" text-anchor="middle" class="arc-title">TMD strain thesis</text>
+</a>
+<a href="#tmd-mlip" class="arc-node">
+<title>MLIPs for TMDs (2026)</title>
+<circle class="arc-dot" cx="782.1" cy="99.9" r="15" fill="#ffffff" stroke="#7d9a70" stroke-width="2.5"/>
+<path d="M782.1 84.9 A15 15 0 0 0 782.1 114.9" fill="none" stroke="#9883b4" stroke-width="2.5"/>
+<g transform="translate(782.1 99.9)" fill="none" stroke="#46613c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M-7.5 -4.0L-0.5 -6.5M-7.5 -4.0L-0.5 0.0M-7.5 -4.0L-0.5 6.5M-7.5 4.0L-0.5 -6.5M-7.5 4.0L-0.5 0.0M-7.5 4.0L-0.5 6.5M-0.5 -6.5L7.0 0.0M-0.5 0.0L7.0 0.0M-0.5 6.5L7.0 0.0" stroke-width=".8" stroke-opacity=".6"/><circle cx="-7.5" cy="-4" r="2.4" fill="#7d9a70" stroke="none"/><circle cx="-7.5" cy="4" r="2.4" fill="#7d9a70" stroke="none"/><circle cx="-0.5" cy="-6.5" r="1.7" fill="#ffffff" stroke-width="1.1"/><circle cx="-0.5" cy="0" r="1.7" fill="#ffffff" stroke-width="1.1"/><circle cx="-0.5" cy="6.5" r="1.7" fill="#ffffff" stroke-width="1.1"/><circle cx="7" cy="0" r="2.4" fill="#9883b4" stroke="none"/></g>
+<text x="782.1" y="136.9" text-anchor="middle" class="arc-year" fill="#46613c">2026</text>
+<text x="782.1" y="153.9" text-anchor="middle" class="arc-title">MLIPs for TMDs</text>
+</a>
+<a href="#hbn" class="arc-node">
+<title>hBN defect emitters (2026–)</title>
+<circle class="arc-pulse" cx="895.0" cy="85.8" r="21" fill="none" stroke="#46613c" stroke-width="1.5"/>
+<circle class="arc-dot" cx="895.0" cy="85.8" r="17" fill="#46613c" stroke="#ffffff" stroke-width="3"/>
+<g transform="translate(895.0 85.8)"><path d="M0.00 -7.00 L-6.06 -3.50 L-6.06 3.50 L-0.00 7.00 L6.06 3.50 L6.06 -3.50Z" fill="none" stroke="#ffffff" stroke-width="1.3" stroke-opacity=".85"/><circle cx="0.00" cy="-7.00" r="1.9" fill="#ffffff" stroke="none"/><circle cx="-6.06" cy="-3.50" r="1.5" fill="#e3c3aa" stroke="none"/><circle cx="-6.06" cy="3.50" r="1.9" fill="#ffffff" stroke="none"/><circle cx="-0.00" cy="7.00" r="1.5" fill="#e3c3aa" stroke="none"/><circle cx="6.06" cy="3.50" r="1.9" fill="#ffffff" stroke="none"/><circle cx="6.06" cy="-3.50" r="1.5" fill="#e3c3aa" stroke="none"/></g>
+<text x="895.0" y="40.8" text-anchor="middle" class="arc-year" fill="#2f4a3c">2026–</text>
+<text x="895.0" y="57.8" text-anchor="middle" class="arc-title">hBN defect emitters</text>
+</a>
+</svg>
+<ol class="arc-list">
+<li class="arc-era-li" style="color:#6c726a">Before Princeton</li>
+<li class="arc-ml"><a href="#pedestrian-counting"><svg class="arc-li-icon" viewBox="-12 -12 24 24" aria-hidden="true"><circle r="10.5" fill="#ffffff" stroke="#9883b4" stroke-width="1.8"/><g transform="translate(0.0 0.0)" fill="none" stroke="#614c76" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M-8.5 -3v10" stroke-width="1.7"/><path d="M-8.5 3.5h3.6l1.4-2.6" stroke-width="1.3"/><g transform="translate(1 -1.2) rotate(14)"><rect x="-5.2" y="-3" width="10.4" height="5.6" rx="1.4"/><path d="M5.2 -2.2l2.4 -.7v4.2l-2.4 -.7" stroke-width="1.2"/><circle cx="-2.6" cy="-.2" r=".9" fill="#614c76" stroke="none"/></g></g></svg><span class="arc-li-year">2021</span>Pedestrian counting</a></li>
+<li class="arc-era-li" style="color:#9a5410">Princeton · undergraduate</li>
+<li class="arc-ml"><a href="#core-loss"><svg class="arc-li-icon" viewBox="-12 -12 24 24" aria-hidden="true"><circle r="10.5" fill="#ffffff" stroke="#9883b4" stroke-width="1.8"/><g transform="translate(0.0 0.0)" fill="none" stroke="#614c76" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M-8 0H8M0 -7V7" stroke-width=".8" stroke-opacity=".45"/><path d="M-7 5.5C-7 -1 -2 -5.5 7 -5.5"/><path d="M7 -5.5C7 1 2 5.5 -7 5.5"/></g></svg><span class="arc-li-year">2023–24</span>Magnetic core loss</a></li>
+<li class="arc-ml"><a href="#colorization"><svg class="arc-li-icon" viewBox="-12 -12 24 24" aria-hidden="true"><circle r="10.5" fill="#ffffff" stroke="#9883b4" stroke-width="1.8"/><g transform="translate(0.0 0.0)" fill="none" stroke="#614c76" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><rect x="-7" y="-6" width="14" height="12" rx="2"/><path d="M0 -6v12" stroke-width="1"/><path d="M0.6 -5.4h5.2a1.4 1.4 0 0 1 1.4 1.4v8a1.4 1.4 0 0 1 -1.4 1.4H0.6z" fill="#b6a5d3" stroke="none"/><path d="M-5 3.5 -2.5 0 0 3" stroke-width="1.2"/></g></svg><span class="arc-li-year">2024</span>GAN colorization</a></li>
+<li class="arc-mat"><a href="#quantum-hall"><svg class="arc-li-icon" viewBox="-12 -12 24 24" aria-hidden="true"><circle r="10.5" fill="#ffffff" stroke="#7d9a70" stroke-width="1.8"/><g transform="translate(0.0 0.0)" fill="none" stroke="#46613c" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M-8 7.5H8M-8 7.5V-8" stroke-width="1" stroke-opacity=".55"/><path d="M-6.5 5.5H-3.6C-2.8 5.5 -2.8 2 -2 2H0.6C1.4 2 1.4 -1.6 2.2 -1.6H4.6C5.4 -1.6 5.4 -5.2 6.2 -5.2H7.5" stroke-width="1.6"/></g></svg><span class="arc-li-year">2024–25</span>Quantum Hall topology</a></li>
+<li class="arc-char"><a href="#mse505-lab"><svg class="arc-li-icon" viewBox="-12 -12 24 24" aria-hidden="true"><circle r="10.5" fill="#ffffff" stroke="#c39272" stroke-width="1.8"/><g transform="translate(0.0 0.0)" fill="none" stroke="#7a4d33" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M-4 -7h8M-3.5 -7 0 3 3.5 -7"/><path d="M-7 5h14" stroke-width="2"/><path d="M-2.5 3.5 -4.5 1.5M2.5 3.5 4.5 1.5" stroke-width="1"/></g></svg><span class="arc-li-year">2025</span>Characterization lab</a></li>
+<li class="arc-mat"><a href="#strain-engineering"><svg class="arc-li-icon" viewBox="-12 -12 24 24" aria-hidden="true"><circle r="10.5" fill="#ffffff" stroke="#7d9a70" stroke-width="1.8"/><g transform="translate(0.0 0.0)" fill="none" stroke="#46613c" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M-8 -4.6L-4 0L0 -4.6L4 0L8 -4.6M-8 4.6L-4 0L0 4.6L4 0L8 4.6" stroke-width="1" stroke-opacity=".75"/><circle cx="-4" cy="0" r="2.4" fill="#46613c" stroke="none"/><circle cx="4" cy="0" r="2.4" fill="#46613c" stroke="none"/><circle cx="-8" cy="-4.6" r="1.9" fill="#ffffff" stroke-width="1.1"/><circle cx="-8" cy="4.6" r="1.9" fill="#ffffff" stroke-width="1.1"/><circle cx="0" cy="-4.6" r="1.9" fill="#ffffff" stroke-width="1.1"/><circle cx="0" cy="4.6" r="1.9" fill="#ffffff" stroke-width="1.1"/><circle cx="8" cy="-4.6" r="1.9" fill="#ffffff" stroke-width="1.1"/><circle cx="8" cy="4.6" r="1.9" fill="#ffffff" stroke-width="1.1"/></g></svg><span class="arc-li-year">2025–26</span>TMD strain thesis</a></li>
+<li class="arc-mix"><a href="#tmd-mlip"><svg class="arc-li-icon" viewBox="-12 -12 24 24" aria-hidden="true"><circle r="10.5" fill="#ffffff" stroke="#7d9a70" stroke-width="1.8"/><g transform="translate(0.0 0.0)" fill="none" stroke="#46613c" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M-7.5 -4.0L-0.5 -6.5M-7.5 -4.0L-0.5 0.0M-7.5 -4.0L-0.5 6.5M-7.5 4.0L-0.5 -6.5M-7.5 4.0L-0.5 0.0M-7.5 4.0L-0.5 6.5M-0.5 -6.5L7.0 0.0M-0.5 0.0L7.0 0.0M-0.5 6.5L7.0 0.0" stroke-width=".8" stroke-opacity=".6"/><circle cx="-7.5" cy="-4" r="2.4" fill="#7d9a70" stroke="none"/><circle cx="-7.5" cy="4" r="2.4" fill="#7d9a70" stroke="none"/><circle cx="-0.5" cy="-6.5" r="1.7" fill="#ffffff" stroke-width="1.1"/><circle cx="-0.5" cy="0" r="1.7" fill="#ffffff" stroke-width="1.1"/><circle cx="-0.5" cy="6.5" r="1.7" fill="#ffffff" stroke-width="1.1"/><circle cx="7" cy="0" r="2.4" fill="#9883b4" stroke="none"/></g></svg><span class="arc-li-year">2026</span>MLIPs for TMDs</a></li>
+<li class="arc-era-li" style="color:#8c1515">Stanford · PhD</li>
+<li class="arc-now"><a href="#hbn"><svg class="arc-li-icon" viewBox="-12 -12 24 24" aria-hidden="true"><circle r="10.5" fill="#46613c" stroke="#46613c" stroke-width="1.8"/><g transform="translate(0.0 0.0)"><path d="M0.00 -7.00 L-6.06 -3.50 L-6.06 3.50 L-0.00 7.00 L6.06 3.50 L6.06 -3.50Z" fill="none" stroke="#ffffff" stroke-width="1.3" stroke-opacity=".85"/><circle cx="0.00" cy="-7.00" r="1.9" fill="#ffffff" stroke="none"/><circle cx="-6.06" cy="-3.50" r="1.5" fill="#e3c3aa" stroke="none"/><circle cx="-6.06" cy="3.50" r="1.9" fill="#ffffff" stroke="none"/><circle cx="-0.00" cy="7.00" r="1.5" fill="#e3c3aa" stroke="none"/><circle cx="6.06" cy="3.50" r="1.9" fill="#ffffff" stroke="none"/><circle cx="6.06" cy="-3.50" r="1.5" fill="#e3c3aa" stroke="none"/></g></svg><span class="arc-li-year">2026–</span>hBN defect emitters</a></li>
+</ol>
+<figcaption id="arc-cap">How the projects connect, from early machine learning through quantum and materials physics to my PhD. Select a project to jump to it. <span class="arc-key"><i class="k-ml"></i>machine learning <i class="k-char"></i>characterization <i class="k-mat"></i>materials &amp; quantum physics</span></figcaption>
+</figure>
+<!-- research-arc:end -->
+
+<!-- Entry pattern: kind · place · advisor or collaborators · date / title / one formal sentence / links (primary document, poster, paper, code) / More detail: Background, Approach, Findings -->
+
+<details class="fold" id="materials" open>
+  <summary><h2>Materials &amp; quantum physics</h2><span class="fold-toggle" aria-hidden="true"></span></summary>
+  <div class="fold-body">
+    <p class="section-intro">The central thread of my research: how atomic-scale structure, strain, and disorder determine electronic and optical properties. These projects run from defect emitters in hBN, through first-principles and experimental studies of 2D semiconductors, to topology in model quantum Hall systems.</p>
+
+    <article class="current-project" id="hbn">
+      <p class="meta"><span class="kind">PhD research</span>Stanford MSE · Prof.&nbsp;Felipe Jornada · <span class="nw">2026–present</span></p>
+      <h3>Excited-state pathways of carbon defects in hBN</h3>
+      <div class="research-top">
+        <div>
+          <p class="lead">A first-principles study of how four-carbon defects in monolayer hexagonal boron nitride (hBN) rearrange, and whether one single-photon emitter can be converted into another.</p>
+          <p class="question"><span class="label">Current question</span>Can a single carbon–nitrogen exchange convert C₂C₂-3, a candidate for the yellow emitter (~575 nm), into C₂C₂-trans, a candidate for the blue B center (436 nm)? And is the barrier accessible thermally, or only under optical excitation?</p>
+        </div>
+        <figure class="research-structures">
+          <a href="assets/figures/hbn-c2c2-swap.png" aria-label="Open full-resolution figure: C2C2-3 and C2C2-trans structures"><img src="assets/thumbs/hbn-c2c2-swap.webp" width="1200" height="620" alt="Two close-ups of the hBN lattice (boron pink, nitrogen blue, carbon gray). Left, C2C2-3: a three-carbon chain plus one separate carbon. Right, C2C2-trans: a continuous four-carbon zigzag chain. The two exchanged sites are circled."></a>
+          <figcaption>C₂C₂-3 (left) and C₂C₂-trans (right) differ by exchanging one carbon and one nitrogen atom (circled). Boron, pink; nitrogen, blue; carbon, gray.</figcaption>
+        </figure>
+      </div>
+      <details class="more">
+        <summary><span class="closed">More detail</span><span class="opened">Less detail</span></summary>
+        <div class="more-body research-body">
+          <div class="research-text">
+            <p><span class="label">Background</span>Single-photon emitters, light sources that release one photon at a time, are building blocks for quantum communication and sensing. Point defects in hBN are among the brightest emitters that operate at room temperature, and carbon-related defects have been linked to several of them. Emitters in hBN are also observed to blink, shift in wavelength, or switch between emission states over time, possibly through structural changes, and the atomic origins of most of them are still debated.</p>
+            <p><span class="label">Approach</span>C₂C₂-3 and C₂C₂-trans have the same composition and differ only by one C ↔ N exchange, yet they are candidates for emitters of very different color. I compute minimum-energy pathways between them to find the barrier for this exchange, first on the ground-state energy surface and then in excited states, to test whether light could drive the conversion.</p>
+            <p><span class="label">Methods</span>Ground-state and triplet pathways use density functional theory (PBE, Quantum ESPRESSO) with the nudged elastic band and string methods on large supercells, run on national supercomputing resources. Starting paths are built with image-dependent pair potentials (IDPP) and screened with single-point calculations. The next stage uses GW and the Bethe–Salpeter equation (BerkeleyGW) to describe excitons and, through excited-state forces, to relax structures and follow reaction paths on the excited-state surface.</p>
+            <p><span class="label">Why it matters</span>A computed barrier would show whether this exchange can explain observed emitter changes, and whether it could be driven deliberately. More broadly, GW–BSE excited-state forces are among the most accurate first-principles tools for excited states but are rarely applied to defect reactions; this project tests them on a realistic case.</p>
+            <figure class="research-density">
+              <a href="assets/figures/hbn-c2c2-density.png" aria-label="Open full-resolution figure: charge-density difference for both configurations"><img src="assets/thumbs/hbn-c2c2-density.webp" width="1200" height="411" alt="Close-ups of the two defects with green and red isosurfaces showing where electron density increases and decreases from the ground state to the triplet state; in both, the changes sit on and around the carbon atoms." loading="lazy"></a>
+              <figcaption>Charge-density difference between the lowest triplet state and the singlet ground state (constrained-occupation DFT, PBE), localized on the carbon cluster in both configurations. Green, density gained; red, density lost.</figcaption>
+            </figure>
+            <p class="focus">DFT · Nudged elastic band · String method · IDPP · GW · Bethe–Salpeter equation · Excited-state forces · Quantum ESPRESSO · BerkeleyGW · HPC</p>
+          </div>
+          <figure class="research-figure">
+            <a href="assets/figures/hbn-pathway.svg" aria-label="Open the excited-state pathway schematic"><img src="assets/figures/hbn-pathway.svg" width="400" height="400" alt="Energy curves for the ground and excited states along a configuration coordinate. Absorption at emitter A is followed by a dashed path over a barrier on the excited-state curve to emitter B; wavy arrows show each emitter releasing a photon of a different color." loading="lazy"></a>
+            <figcaption>Schematic of the idea: after excitation at configuration A, the defect may cross a barrier on the excited-state surface to configuration B, and each configuration emits light of a different color. Illustrative, not computed data.</figcaption>
+          </figure>
+        </div>
+      </details>
+    </article>
+
+    <article class="project" id="strain-engineering">
+      <figure>
+        <a class="thumb" href="assets/figures/tmd-strain.png" aria-label="Open full-resolution figure: WS2 flake model"><img src="assets/thumbs/tmd-strain.webp" srcset="assets/thumbs/tmd-strain-480.webp 480w, assets/thumbs/tmd-strain.webp 960w" sizes="(max-width: 600px) 300px, (max-width: 820px) 200px, 240px" width="960" height="600" alt="Atomic model of a tungsten disulfide flake in top, perspective, and side views." loading="lazy"></a>
+        <figcaption>Schematic of a triangular monolayer WS₂ flake in top, perspective, and side views. From the thesis poster.</figcaption>
+      </figure>
+      <div class="project-copy">
+        <p class="meta"><span class="kind">Senior thesis</span>Princeton ECE · Prof.&nbsp;Saien Xie · <span class="nw">2025–26</span></p>
+        <h3>Strain engineering of transition metal dichalcogenides</h3>
+        <p>A combined first-principles and experimental study of how mechanical strain tunes the band structure of monolayer group-VI transition metal dichalcogenides (TMDs).</p>
+        <div class="links">
+          <a href="documents/tmd-strain-thesis.pdf">Senior thesis <span class="pdf">PDF · 102 pp</span></a>
+          <a href="documents/tmd-strain-thesis-poster.pdf">Poster <span class="pdf">PDF</span></a>
+        </div>
+        <details class="more">
+          <summary><span class="closed">More detail</span><span class="opened">Less detail</span></summary>
+          <div class="more-body">
+            <p><span class="label">Background</span>Monolayer TMDs are direct-bandgap 2D semiconductors that tolerate large mechanical strain, making strain a continuous handle for tuning their electronic and optical properties in flexible devices.</p>
+            <p><span class="label">Approach</span>I performed density functional theory calculations for MoS₂, MoSe₂, MoTe₂, WS₂, and WSe₂ under biaxial strain from −10% to +10%, and complemented them with uniaxial tensile-strain experiments on monolayer WS₂ using elongation and bending, tracking the optical bandgap with photoluminescence spectroscopy.</p>
+            <p><span class="label">Findings</span>WS₂ shows the strongest bandgap tunability; sulfides are consistently more tunable than selenides and tellurides; and the response is dominated by the conduction band. Bending experiments reached a maximum A-exciton shift of −48.3 meV and, in a separate run, a gauge factor of −19.6 meV/%, consistent with the predicted trends. Building on both, the thesis proposes a WS₂/MoSe₂ heterostructure as a platform for strain-tunable optoelectronics.</p>
+            <p class="focus">VASP · DFT, including hybrid functionals · Photoluminescence spectroscopy · Uniaxial strain (elongation, bending)</p>
+            <p class="related">Related: <a href="#tmd-mlip">Machine-learning potentials for strained TMDs</a>, a separate course project on the same materials.</p>
+          </div>
+        </details>
+      </div>
+    </article>
+
+    <article class="project" id="tmd-mlip">
+      <figure>
+        <a class="thumb" href="assets/figures/tmd-mlip.png" aria-label="Open full-resolution figure: WS2/WSe2 heterostructure"><img src="assets/thumbs/tmd-mlip.webp" srcset="assets/thumbs/tmd-mlip-480.webp 480w, assets/thumbs/tmd-mlip.webp 960w" sizes="(max-width: 600px) 300px, (max-width: 820px) 200px, 240px" width="960" height="600" alt="Perspective view of a relaxed 252-atom WS2/WSe2 lateral heterostructure, shown as a repeated supercell with alternating WSe2 and WS2 regions." loading="lazy"></a>
+        <figcaption>A 252-atom WS₂/WSe₂ lateral heterostructure, relaxed with TensorNet-MatPES-r²SCAN, the most accurate machine-learning potential tested, and shown as a repeated supercell. From the report (Fig. 2).</figcaption>
+      </figure>
+      <div class="project-copy">
+        <p class="meta"><span class="kind">Course project</span>Princeton CBE/MSE 423 · Prof.&nbsp;Andrew Rosen · Spring 2026</p>
+        <h3>Machine-learning potentials for strained TMDs</h3>
+        <p>An evaluation of machine-learning interatomic potentials (MLIPs) as faster alternatives to DFT for structural relaxation and strained-bandgap modeling in monolayer TMDs.</p>
+        <div class="links">
+          <a href="documents/tmd-mlip-report.pdf">Report <span class="pdf">PDF</span></a>
+          <a href="documents/tmd-mlip-poster.pdf">Poster <span class="pdf">PDF</span></a>
+        </div>
+        <details class="more">
+          <summary><span class="closed">More detail</span><span class="opened">Less detail</span></summary>
+          <div class="more-body">
+            <p><span class="label">Background</span>DFT becomes costly for large supercells and dense strain grids, which limits computational studies of TMD alloys, heterostructures, and strain. MLIPs promise near-DFT accuracy at a fraction of the cost.</p>
+            <p><span class="label">Approach</span>I benchmarked several recent MLIPs against DFT and experiment on the five TMDs studied in my thesis, used the most accurate model to relax a 252-atom WS₂/WSe₂ lateral heterostructure, and compared two machine-learning workflows against DFT for bandgaps under biaxial strain.</p>
+            <p><span class="label">Findings</span>All MLIPs gave structures of DFT quality, with average RMSDs below 0.1 Å relative to experimental unit cells. TensorNet-MatPES-r²SCAN was the most accurate and relaxed the heterostructure in 55 optimization steps. A density-of-states model with bandgap prediction (PET-MAD-DOS) captured qualitative trends but not quantitative values, whereas MLIP relaxation followed by a single static DFT calculation closely reproduced the all-DFT strain–bandgap trends.</p>
+            <p class="focus">MLIPs · DFT benchmarking · Strain–bandgap modeling · Lateral heterostructures</p>
+            <p class="related">Related: <a href="#strain-engineering">Strain engineering of transition metal dichalcogenides</a>, my senior thesis.</p>
+          </div>
+        </details>
+      </div>
+    </article>
+
+    <article class="project" id="quantum-hall">
+      <figure>
+        <a class="thumb" href="documents/quantum-hall-potential.pdf" aria-label="Open full figure: disorder potential (PDF)"><img src="assets/thumbs/quantum-hall.webp" srcset="assets/thumbs/quantum-hall-480.webp 480w, assets/thumbs/quantum-hall.webp 960w" sizes="(max-width: 600px) 300px, (max-width: 820px) 200px, 240px" width="960" height="600" alt="Surface plot of a random disorder potential used in the simulations." loading="lazy"></a>
+        <figcaption>One random disorder potential V(r) of the kind used to simulate electrons in the lowest Landau level.</figcaption>
+      </figure>
+      <div class="project-copy">
+        <p class="meta"><span class="kind">Research</span>Princeton ECE 398 · Prof.&nbsp;Ravindra Bhatt · <span class="nw">2024–25</span></p>
+        <h3>Chern number statistics in the lowest Landau level</h3>
+        <p>A large-scale numerical study relating topology to energy-level statistics for electrons in the lowest Landau level with random disorder.</p>
+        <div class="links">
+          <a href="documents/quantum-hall-report.pdf">Report <span class="pdf">PDF</span></a>
+          <a href="documents/quantum-hall-poster.pdf">Poster <span class="pdf">PDF</span></a>
+          <a href="https://github.com/edeleu/iqhe-simulation">Code</a>
+        </div>
+        <details class="more">
+          <summary><span class="closed">More detail</span><span class="opened">Less detail</span></summary>
+          <div class="more-body">
+            <p><span class="label">Background</span>In the integer quantum Hall effect, extended states carry a nonzero Chern number, a topological invariant, while localized states have zero Chern number. Random matrix theory offers a complementary, statistical description of the same spectrum.</p>
+            <p><span class="label">Approach</span>I simulated disordered lowest-Landau-level systems with up to 2,048 states and computed a Chern number for every state. My Python, CuPy, and Numba pipelines ran on Princeton’s research computing clusters; over the full project they used about 447k CPU-hours and 7k GPU-hours.</p>
+            <p><span class="label">Findings</span>Level spacings cross over from Gaussian unitary ensemble statistics at the band center to Poisson statistics at the band edges. Restricting to states of the same Chern number reveals intermediate statistics, shaped by interspersed states with different Chern numbers and by repulsion between extended states. A manuscript with R. Samajdar and R. Bhatt is in preparation.</p>
+            <p class="focus">Python · CuPy / Numba · HPC (Slurm) · Random matrix theory · Scaling analysis</p>
+          </div>
+        </details>
+      </div>
+    </article>
+  </div>
+</details>
+
+<details class="fold bar-clay" id="characterization" open>
+  <summary><h2>Microscopy &amp; characterization</h2><span class="fold-toggle" aria-hidden="true"></span></summary>
+  <div class="fold-body">
+    <p class="section-intro">Coursework in experimental characterization, a complement to my computational work. One project reports hands-on measurements; the other reviews a specialized imaging technique.</p>
+
+    <article class="project clay" id="mse505-lab">
+      <figure>
+        <a class="thumb" href="assets/figures/mse505-lab.png" aria-label="Open full-resolution figure: butterfly-wing topography"><img src="assets/thumbs/mse505-lab.webp" srcset="assets/thumbs/mse505-lab-480.webp 480w, assets/thumbs/mse505-lab.webp 960w" sizes="(max-width: 600px) 300px, (max-width: 820px) 200px, 240px" width="960" height="600" alt="Butterfly-wing topography: a confocal height map and its 3D reconstruction." loading="lazy"></a>
+        <figcaption>Butterfly-wing scales imaged by confocal microscopy: (a) height map and (b) 3D reconstruction of a 1.40 × 1.05 mm area.</figcaption>
+      </figure>
+      <div class="project-copy">
+        <p class="meta"><span class="kind">Course project</span>Princeton MSE 505 · Prof.&nbsp;Nan Yao · Spring 2025</p>
+        <h3>Materials characterization lab</h3>
+        <p>A laboratory report on five characterization techniques, comparing what each reveals about structure and composition across length scales.</p>
+        <div class="links"><a href="documents/mse505-lab-report.pdf">Report <span class="pdf">PDF</span></a></div>
+        <details class="more">
+          <summary><span class="closed">More detail</span><span class="opened">Less detail</span></summary>
+          <div class="more-body">
+            <p><span class="label">Approach</span>I used confocal laser-scanning microscopy for 3D topography, scanning electron microscopy with EDS for fine structure and elemental composition, X-ray diffraction for crystallography, and transmission electron and atomic force microscopy for nanoscale imaging. Butterfly-wing scales serve as a recurring sample.</p>
+            <p><span class="label">Purpose</span>Imaging the same butterfly wing by confocal microscopy, SEM, and AFM shows how optical, electron, and scanning-probe methods differ in resolution, contrast, and sample preparation; XRD identified an unknown powder as a rutile–corundum mixture, and TEM imaged a standard specimen of sputtered gold particles. All measurements were performed at Princeton’s Imaging and Analysis Center.</p>
+            <p class="focus">Confocal · SEM / EDS · XRD · TEM · AFM</p>
+          </div>
+        </details>
+      </div>
+    </article>
+
+    <article class="project clay" id="helium-ion-microscopy">
+      <figure>
+        <a class="thumb" href="assets/figures/mse505-him.png" aria-label="Open full-resolution figure: wavelength comparison"><img src="assets/thumbs/mse505-him.webp" srcset="assets/thumbs/mse505-him-480.webp 480w, assets/thumbs/mse505-him.webp 960w" sizes="(max-width: 600px) 300px, (max-width: 820px) 200px, 240px" width="960" height="600" alt="Plot comparing electron and ion wavelengths against accelerating voltage." loading="lazy"></a>
+        <figcaption>De Broglie wavelength of electrons and of He⁺, Ne⁺, and Ga⁺ ions versus accelerating voltage. At the same accelerating voltage, a helium ion’s wavelength is about 85 times shorter than an electron’s, one reason helium ion microscopy can image at high resolution.</figcaption>
+      </figure>
+      <div class="project-copy">
+        <p class="meta"><span class="kind">Course project</span>Princeton MSE 505 · Prof.&nbsp;Nan Yao · Spring 2025</p>
+        <h3>Helium ion microscopy: a review</h3>
+        <p>A literature review of helium ion microscopy (HIM), covering its instrumentation, imaging mechanisms, and analytical capabilities.</p>
+        <div class="links"><a href="documents/mse505-him-review.pdf">Review <span class="pdf">PDF</span></a></div>
+        <details class="more">
+          <summary><span class="closed">More detail</span><span class="opened">Less detail</span></summary>
+          <div class="more-body">
+            <p><span class="label">Scope</span>The review traces the development of the technique, then covers the gas field ion source and ion optics; beam–sample interactions; imaging with secondary electrons, backscattered ions, and ionoluminescence; and analytical modes such as secondary-ion mass spectrometry, with comparisons to SEM. It closes with applications and an outlook.</p>
+            <p><span class="label">Note</span>This is a literature-based study; no HIM measurements were performed.</p>
+            <p class="focus">Ion optics · Beam–sample interactions · Imaging contrast · Analytical methods</p>
+          </div>
+        </details>
+      </div>
+    </article>
+  </div>
+</details>
+
+<details class="fold bar-lilac" id="learning" open>
+  <summary><h2>Machine learning</h2><span class="fold-toggle" aria-hidden="true"></span></summary>
+  <div class="fold-body">
+    <p class="section-intro">Machine-learning projects, going back to my first publication. They built the data-driven skills I now apply to materials problems, such as the interatomic potentials in the TMD course project.</p>
+
+    <article class="project lilac" id="colorization">
+      <figure>
+        <a class="thumb" href="assets/figures/colorization.png" aria-label="Open full-resolution figure: colorization examples"><img src="assets/thumbs/colorization.webp" srcset="assets/thumbs/colorization-480.webp 480w, assets/thumbs/colorization.webp 960w" sizes="(max-width: 600px) 300px, (max-width: 820px) 200px, 240px" width="960" height="600" alt="Grayscale portrait inputs above model-generated colorizations." loading="lazy"></a>
+        <figcaption>Grayscale portrait inputs (top row) and the GAN’s colorized outputs (bottom row).</figcaption>
+      </figure>
+      <div class="project-copy">
+        <p class="meta"><span class="kind">Course project</span>Princeton COS 429 · with Vishva Ilavelan · Fall 2024</p>
+        <h3>Bias in GAN-based portrait colorization</h3>
+        <p>A conditional Wasserstein GAN for colorizing grayscale portraits, analyzed for how training-data imbalance affects results across demographic groups.</p>
+        <div class="links">
+          <a href="documents/colorization-report.pdf">Report <span class="pdf">PDF</span></a>
+          <a href="documents/colorization-poster.pdf">Poster <span class="pdf">PDF</span></a>
+          <a href="https://github.com/edeleu/GAN-Colorization">Code</a>
+        </div>
+        <details class="more">
+          <summary><span class="closed">More detail</span><span class="opened">Less detail</span></summary>
+          <div class="more-body">
+            <p><span class="label">Background</span>Colorization is a generative image-to-image task. Because portrait datasets are often demographically imbalanced, a model’s output quality may vary across groups.</p>
+            <p><span class="label">Approach</span>We trained a conditional Wasserstein GAN on the AISegment portrait dataset and evaluated it on FairFace and other portrait datasets, comparing reconstruction errors across demographic groups.</p>
+            <p><span class="label">Findings</span>Despite the imbalanced training data, reconstruction error was similar across the seven demographic groups in FairFace, and skin tones were colorized consistently. Errors concentrated in clothing, which the model rendered in muted neutral tones, and in cluttered backgrounds.</p>
+            <p class="focus">PyTorch · Conditional WGAN · Computer vision · Fairness evaluation</p>
+          </div>
+        </details>
+      </div>
+    </article>
+
+    <article class="project lilac" id="core-loss">
+      <figure>
+        <a class="thumb" href="assets/figures/core-loss.png" aria-label="Open full-resolution figure: framework diagram"><img src="assets/thumbs/core-loss.webp" srcset="assets/thumbs/core-loss-480.webp 480w, assets/thumbs/core-loss.webp 960w" sizes="(max-width: 600px) 300px, (max-width: 820px) 200px, 240px" width="960" height="600" alt="Diagram of a shared feature extractor feeding material-specific mapping networks." loading="lazy"></a>
+        <figcaption>Framework architecture: a shared feature extractor reads the flux waveform B(t) and operating conditions; compact material-specific networks predict core loss, and new materials are added by transfer learning.</figcaption>
+      </figure>
+      <div class="project-copy">
+        <p class="meta"><span class="kind">Research</span>Princeton Andlinger Center · Prof.&nbsp;Minjie Chen · <span class="nw">2023–24</span></p>
+        <h3>Multi-material magnetic core-loss modeling</h3>
+        <p>A compact, modular neural-network framework that predicts magnetic core loss across materials and adapts to new ones with little data.</p>
+        <div class="links">
+          <a href="https://doi.org/10.1109/APEC48139.2024.10509142">Paper</a>
+          <a href="documents/core-loss-poster.pdf">Poster <span class="pdf">PDF</span></a>
+          <a href="https://github.com/edeleu/Core-Loss-Framework">Code</a>
+        </div>
+        <details class="more">
+          <summary><span class="closed">More detail</span><span class="opened">Less detail</span></summary>
+          <div class="more-body">
+            <p><span class="label">Background</span>Core loss in magnetic components depends on intertwined factors: temperature, frequency, DC bias, and waveform shape. Empirical models such as the Steinmetz equation have limited accuracy, and earlier neural-network approaches required a large model and dataset for each material.</p>
+            <p><span class="label">Approach</span>I trained a shared transformer-based feature extractor on six materials from the open-source MagNet database (about 950k augmented sequences), with small material-specific networks mapping its features to core loss. New materials are added by transfer learning with the extractor held fixed.</p>
+            <p><span class="label">Findings</span>Each material requires only 573 parameters beyond the 14,864-parameter shared network, with about 1.3% average error across soft ferrites; transfer learning reaches high accuracy with only hundreds of data points. The work was published at IEEE APEC 2024, and the poster received the Andlinger Center’s Undergraduate Presentation Award.</p>
+            <p class="focus">PyTorch · Transformers · Transfer learning · Optuna</p>
+          </div>
+        </details>
+      </div>
+    </article>
+
+    <article class="project lilac" id="pedestrian-counting">
+      <figure>
+        <a class="thumb" href="assets/figures/pedestrian-counting.png" aria-label="Open full-resolution figure: detections at three confidence thresholds"><img src="assets/thumbs/pedestrian-counting.webp" width="460" height="288" alt="Manhattan traffic-camera frame with red boxes around pedestrians detected by the model." loading="lazy"></a>
+        <figcaption>Pedestrians detected (red boxes) in a Manhattan traffic-camera frame at this camera’s optimal confidence threshold, 0.45. The full figure also shows thresholds of 0.1 and 0.8.</figcaption>
+      </figure>
+      <div class="project-copy">
+        <p class="meta"><span class="kind">Research</span>Rutgers School of Engineering · with S. Elez, A. Gadodia, K. Macvaugh, and G. Zhao · 2021</p>
+        <h3>Deep learning for urban pedestrian counting</h3>
+        <p>A deep-learning system that counts pedestrians in public traffic-camera images at five Manhattan intersections.</p>
+        <div class="links">
+          <a href="https://doi.org/10.1109/URTC54388.2021.9701649">Paper</a>
+          <a href="https://github.com/edeleu/Pedestrian-Counting">Code</a>
+        </div>
+        <details class="more">
+          <summary><span class="closed">More detail</span><span class="opened">Less detail</span></summary>
+          <div class="more-body">
+            <p><span class="label">Background</span>Crowded sidewalks slow pedestrian travel and raise safety concerns, including theft and disease transmission. Location-based monitoring of foot traffic could help residents plan routes that avoid congestion.</p>
+            <p><span class="label">Approach</span>We used a Python web scraper to collect about 1,750 daytime and nighttime images from five 511NY traffic cameras in Manhattan, and hand-counted pedestrians in a random subset for ground truth. After comparing Haar cascade, HOG with a linear SVM, YOLOv3, SSD, and Faster R-CNN detectors, we selected a COCO-pretrained Faster R-CNN (ResNet-50, GluonCV), chose each camera’s confidence threshold by minimizing the mean percentage error, and mapped the results in MATLAB.</p>
+            <p><span class="label">Findings</span>In clear weather the system reached 75–83% accuracy during the day (78.8% on average) and 59–79% at night (69.8% on average), supporting the viability of camera-based pedestrian counting. The remaining errors stemmed mainly from low image resolution and false positives such as trash cans and streetlights. The work was presented virtually at the 2021 IEEE MIT Undergraduate Research Technology Conference.</p>
+            <p class="focus">Python · GluonCV · Faster R-CNN · Web scraping · MATLAB</p>
+          </div>
+        </details>
+      </div>
+    </article>
+  </div>
+</details>
+</main>
+
+<footer class="wrap">
+  <span>Edward Deleu · <a href="mailto:edeleu@stanford.edu">edeleu@stanford.edu</a> · <a href="documents/edward-deleu-cv.pdf">CV</a></span>
+  <span>Updated November 2026 · <a href="#top">Back to top <span aria-hidden="true">↑</span></a></span>
+</footer>
+<script>
+/* Optional enhancement: when arriving at a project link (e.g. from Home), open its section and "More detail". */
+(function () {
+  function openTarget() {
+    var id;
+    try { id = decodeURIComponent(location.hash.slice(1)); } catch (e) { return; }
+    var el = id && document.getElementById(id);
+    if (!el) return;
+    var fold = el.closest('details.fold');
+    if (fold) fold.open = true;
+    if (el.matches('article')) {
+      var more = el.querySelector('details.more');
+      if (more) more.open = true;
+    }
+    el.scrollIntoView();
+  }
+  openTarget();
+  window.addEventListener('hashchange', openTarget);
+})();
+</script>
+</body>
+</html>

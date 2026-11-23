@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light only">
+<meta name="robots" content="noindex">
+<title>Page not found · Edward Deleu</title>
+<meta name="theme-color" content="#faf9f5">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+<!--
+  Self-contained on purpose: GitHub Pages serves this file for ANY missing path
+  (e.g. /a/b/c), where relative links to styles.css would break. All styling is
+  inline; links are root-absolute so they work at any depth once deployed.
+  (Opened straight from disk, the page looks right but its links point at the
+  filesystem root.)
+-->
+<style>
+  :root { --bg:#faf9f5; --ink:#292f2c; --heading:#2f4a3c; --muted:#585f58; --accent:#365e4c; --warm:#8a5a3e; --line:#dcded5;
+          --spectrum: linear-gradient(90deg, #8fae80, #c99a78 55%, #a08cbc); }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; }
+  a { color: var(--accent); text-underline-offset: 4px; text-decoration-thickness: 1px; }
+  a:hover { color: #1a392b; text-decoration-thickness: 2px; }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+  .wrap { width: min(1000px, calc(100% - 64px)); margin: auto; }
+  .skip { position: absolute; top: -80px; left: 20px; background: var(--bg); padding: 10px; z-index: 3; }
+  .skip:focus { top: 10px; }
+  header { position: relative; display: flex; justify-content: space-between; align-items: center; gap: 20px; padding: 22px 0; }
+  header::after, footer::before { content: ''; position: absolute; left: 0; right: 0; height: 1px; background: var(--spectrum); opacity: .55; }
+  header::after { bottom: 0; } footer::before { top: 0; }
+  .brand { display: inline-flex; align-items: center; gap: 10px; font-weight: 650; color: var(--ink); text-decoration: none; font-size: 15px; }
+  .brand svg { width: 22px; height: 22px; }
+  nav { display: flex; gap: 26px; flex-wrap: wrap; }
+  nav a { font-size: 14px; text-decoration: none; color: var(--muted); padding: 8px 0; }
+  nav a:hover { color: var(--accent); }
+  main { display: grid; grid-template-columns: minmax(0, 1fr) 200px; gap: 60px; align-items: center; padding: 70px 0 90px; }
+  .eyebrow { color: var(--warm); font-size: 13px; font-weight: 600; letter-spacing: .03em; margin: 0 0 10px; }
+  h1 { font: normal 46px/1.1 Georgia, serif; letter-spacing: -.03em; margin: 0 0 20px; color: var(--heading); }
+  p { margin: 0 0 14px; max-width: 560px; }
+  .links { display: flex; flex-wrap: wrap; gap: 4px 16px; margin-top: 20px; font-size: 14px; }
+  .links .primary { font-weight: 600; }
+  .vacancy { display: block; width: 200px; height: 200px; }
+  footer { position: relative; display: flex; justify-content: space-between; gap: 6px 15px; flex-wrap: wrap; padding: 22px 0 30px; font-size: 12px; color: var(--muted); }
+  @media (max-width: 600px) {
+    .wrap { width: calc(100% - 32px); }
+    header { flex-wrap: wrap; gap: 6px 20px; padding: 16px 0 12px; }
+    nav { gap: 4px 20px; }
+    main { display: flex; flex-direction: column-reverse; align-items: flex-start; gap: 22px; padding: 32px 0 50px; }
+    .vacancy { width: 120px; height: 120px; }
+    h1 { font-size: 37px; }
+  }
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="wrap">
+  <a href="/" class="brand"><svg viewBox="0 0 32 32" width="22" height="22" aria-hidden="true"><path d="M16 4 26.4 10v12L16 28 5.6 22V10Z" fill="none" stroke="#7d9a70" stroke-width="1.8" stroke-linejoin="round"/><g fill="#5f7d55"><circle cx="16" cy="4" r="3.4"/><circle cx="26.4" cy="22" r="3.4"/><circle cx="5.6" cy="22" r="3.4"/></g><g fill="#c39272"><circle cx="26.4" cy="10" r="2.8"/><circle cx="16" cy="28" r="2.8"/><circle cx="5.6" cy="10" r="2.8"/></g></svg>Edward Deleu</a>
+  <nav aria-label="Main navigation">
+    <a href="/">Home</a>
+    <a href="/projects.html">Projects</a>
+    <a href="/personal.html">Personal</a>
+    <a href="/documents/edward-deleu-cv.pdf">CV</a>
+  </nav>
+</header>
+
+<main class="wrap" id="main">
+  <div>
+    <p class="eyebrow">Error 404</p>
+    <h1>Vacancy detected.</h1>
+    <p>Like a vacancy in a crystal lattice, the page you were looking for isn’t here. It may have moved, or the link may have a typo.</p>
+    <div class="links">
+      <a class="primary" href="/">Back to the home page</a>
+      <a href="/projects.html">Projects</a>
+      <a href="/documents/edward-deleu-cv.pdf">CV</a>
+    </div>
+  </div>
+  <svg class="vacancy" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="A hexagonal ring of atoms with one atom missing">
+    <path d="M100 30 160.6 65v70L100 170 39.4 135V65Z" fill="none" stroke="#c9cfc4" stroke-width="3" stroke-linejoin="round"/>
+    <g fill="#5f7d55"><circle cx="160.6" cy="135" r="12"/><circle cx="39.4" cy="135" r="12"/></g>
+    <g fill="#c39272"><circle cx="160.6" cy="65" r="10"/><circle cx="100" cy="170" r="10"/><circle cx="39.4" cy="65" r="10"/></g>
+    <circle cx="100" cy="30" r="12" fill="#faf9f5" stroke="#9883b4" stroke-width="2.5" stroke-dasharray="4 4"/>
+  </svg>
+</main>
+
+<footer class="wrap">
+  <span>Edward Deleu · <a href="mailto:edeleu@stanford.edu">edeleu@stanford.edu</a></span>
+  <a href="/">Home</a>
+</footer>
+</body>
+</html>

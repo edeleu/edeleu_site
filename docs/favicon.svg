@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <title>hBN ring</title>
+  <path d="M16 4 26.4 10v12L16 28 5.6 22V10Z" fill="none" stroke="#7d9a70" stroke-width="1.8" stroke-linejoin="round"/>
+  <g fill="#5f7d55">
+    <circle cx="16" cy="4" r="3.4"/>
+    <circle cx="26.4" cy="22" r="3.4"/>
+    <circle cx="5.6" cy="22" r="3.4"/>
+  </g>
+  <g fill="#c39272">
+    <circle cx="26.4" cy="10" r="2.8"/>
+    <circle cx="16" cy="28" r="2.8"/>
+    <circle cx="5.6" cy="10" r="2.8"/>
+  </g>
+</svg>

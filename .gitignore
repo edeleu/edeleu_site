@@ -1,0 +1,12 @@
+# Publish ONLY the website (docs/). Everything else in this folder stays private:
+# PersonalSiteAssets/, tools/, TODO.md, README.txt, LAUNCH.md, the handoff, etc.
+/*
+!/docs/
+!/.gitignore
+.DS_Store
+
+# Never publish slide decks, even if one lands in docs/ by accident
+*.pptx
+*.ppt
+*.key
+*.odp
